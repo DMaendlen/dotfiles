@@ -1,0 +1,12 @@
+[submodule "vim/.vim/bundle/loremipsum"]
+	path = vim/.vim/bundle/loremipsum
+	url = https://github.com/vim-scripts/loremipsum
+[submodule "vim/.vim/bundle/vim-snippets"]
+	path = vim/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "vim/.vim/bundle/vim-expand-region"]
+	path = vim/.vim/bundle/vim-expand-region
+	url = https://github.com/terryma/vim-expand-region
+[submodule "vim/.vim/bundle/vim-airline"]
+	path = vim/.vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
