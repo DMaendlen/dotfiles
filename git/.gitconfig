@@ -1,0 +1,13 @@
+[user]
+	name = David Mändlen
+	email = david.maendlen@bifroe.st
+[credential]
+	helper = cache --timeout=3600
+[merge]
+	tool = vimdiff
+[core]
+	excludesfile = /home/damait06/dotfiles/git/.gitignore_global
+[http]
+	sslVerify = true
+[push]
+	default = matching

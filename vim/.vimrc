@@ -1,0 +1,149 @@
+set nocompatible              " be iMproved, required
+filetype plugin on 		" required
+
+" set leader to ,
+let mapleader = ","
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'mbbill/undotree'
+Plugin 'mattn/emmet-vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'tomtom/tlib_vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-commentary'
+Plugin 'terryma/vim-expand-region'
+Plugin 'tpope/vim-fugitive'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'vim-scripts/openssl.vim'
+Plugin 'vim-scripts/loremipsum'
+Plugin 'ervandew/supertab'
+Plugin 'scrooloose/syntastic'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'scrooloose/nerdcommenter'
+
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+"Plugin 'tpope/vim-fugitive'
+" plugin from http://vim-scripts.org/vim/scripts.html
+"Plugin 'L9'
+" Git plugin not hosted on GitHub
+"Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+"Plugin 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Avoid a name conflict with L9
+"Plugin 'user/L9', {'name': 'newL9'}
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :Pluginstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of knused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+" looks
+" set colors
+set t_Co=256
+set background=dark
+colorscheme zellner
+
+" highlight search results
+set hlsearch
+
+" enumerate lines
+set relativenumber
+
+" show currently edited line
+set cursorline
+
+" show current cursor column
+"set cursorcolumn
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:·\ ,eol:¬
+set list
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+
+" feels
+" use a not-braindead encoding
+set encoding=utf-8
+
+" automatically recognize languages
+filetype on
+syntax on
+
+" mark text red if it is longer than 80 characters per line
+highlight OverLength ctermbg=darkred ctermfg=white
+match OverLength /\%81v.\+/
+
+" code
+" use code formatting standard according to linux kernel guidelines
+set smartindent
+set tabstop=8
+set shiftwidth=8
+set noexpandtab
+
+" in case of python files change expandtab, shiftwidth and tabstop
+ autocmd FileType python set tabstop=4 | set shiftwidth=4
+
+set undodir='~/.vim/undodir/'
+set undofile
+
+" kill trailing whitespaces
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+" enable folding
+set foldenable
+set foldlevelstart=10
+set foldnestmax=10
+set foldmethod=syntax
+
+" enable python-regexes for searching
+nnoremap / /\v
+vnoremap / /\v
+
+" intelligent case-sensitivity
+set ignorecase
+set smartcase
+
+" clearing search highlighting
+nnoremap <leader><space> :nohl<cr>
+
+" make sure, modelines don't bite us
+set modelines=0
+
+" handle long lines correctly
+set wrap
+set textwidth=79
+set formatoptions=tqrn1
+set colorcolumn=85
+
+" re-hardwrap text
+nnoremap <leader>q gqip
+
+" quicker escaping
+inoremap jj <ESC>

@@ -1,0 +1,100 @@
+xyz,V
+,V
+> ciko,V
+> > --,V
+> Hi Dave,> ,V
+> Sehr geehrter Herr Mändlen,> ,V
+> > Von meinem iPhone gesendet> > Am 14.07.2014 um 22:37 schrieb "David Mändlen" <d.maendlen@stud.hs-esslingen.de>:> > > Hi,> > > > Alessandro Valentino Ribul Moro wrote on 2014-07-14 at 05:07:> >> wie lief BS?> > > > Voll gut :)> > > >> Wann sollen wir uns morgen treffen? Hätte paar kl Fragen die du mir bestimmt beantworten könntest.> > > > Bin ab ca. 10:00 da.> > > > Gruß> > D> > > > -- > > David Mändlen                |   -  ASCII-Ribbon-Campaign> > HS Esslingen / Fachschaft IT    |  ( ) against HTML-formatted> > Semestersprecher IT3        |   x  e-mails.> > GPG-Key: 0xa197dda1            |  / \ en.wikipedia.org/wiki/Plain_text,v
+> Fakultät IT,V
+> Antonio Parrotta> Matr. 744871,V
+> -----------------------> Mit freundlichen Grüßen,V
+> Voll krass!!> ,V
+> ah ich glaub nicht XD haha> ich werd morgen noch bisschen CA machen und vielleicht noch Sigsys.,V
+> > Bin im shack. Komm vorbei :>> ,V
+> Hi,> ,V
+> http://shackspace.de/wiki/doku.php?id=styleschutz:mailinglisten,V
+> > Bitte die Styleschutzregeln fuer Mailinglisten beachten:,V
+> Public@lists.shackspace.de> https://lists.shackspace.de/mailman/listinfo/public,V
+> -- > Public mailing list,V
+> ;-)> ,V
+> ihn den pekuniaeren Teil (=Geldeinwurf) uebernehmen zu lassen.> ,V
+> Klingt aehnlich, als wolle man beim Kauf einer Mate aus> dem Automaten einen ausgebildeten Banker hinzuziehen, um,V
+> ,v
+> ,V
+> > die Einzelteile eines Hobokochers[0] basteln kann.> ,V
+> > > > ich will morgen mal mit Andi Brucker reden, ob der mir für <20 Euro,V
+> On Mon, Jul 14, 2014 at 10:51:37PM +0200, David Mändlen wrote:> > Hi,,V
+getent passwd | awk -F: '{if({>=500) print (}')},v
+> Matr. 744871> Fakultät IT,V
+> Mit freundlichen Grüßen> Antonio Parrotta,V
+> > -----------------------,V
+> > > Gruß> > > A.R.> > > > > > > > > > > > Von: David Mändlen> Gesendet: ‎Samstag‎, ‎12‎. ‎Juli‎ ‎2014 ‎13‎:‎30> An: Alessandro Ribul Moro> > > > > > Hi,> > Alessandro Valentino Ribul Moro wrote on 2014-07-12 at 11:07:> > du schreibst ja Montag BS, sollen wir uns dann Dienstag treffen zum SigSys CA lernen im shack oder der Uni?> > gerne, ich werd vermutlich im shack lernen, wahrscheinlich auch am> Montag schon.> > > Wie lief bei dir Info? ich glaub ich darf schön den dritt Versuch machen fand die Klausur echt gülle kam mit der Zeit überhaupt nicht hin.> > Zweitversuch werd ich keinen brauchen aber gute Noten gehen halt> anders...> > Gruß> D> > -- > David Mändlen                     |   -  ASCII-Ribbon-Campaign> HS Esslingen / Fachschaft IT     |  ( ) against HTML-formatted> Semestersprecher IT3            |   x  e-mails.> GPG-Key: 0xa197dda1               |  / \ en.wikipedia.org/wiki/Plain_text,v
+> > ,V
+> Hey,> ,V
+rixx wrote on 2014-07-13 at 08:07:> http://hpmor.com/> > Plus, Erinnerung: Liste, was ich zum Wandern brauche. :)> > rixx,v
+-- ,V
+> Claus> > ---------- Original Nachricht ----------> Betreff: [shack e.V. announcement] Monatsbericht 2014-03, 2014-04, 2014-05, 2014-06> Datum: Sun, 13 Jul 2014 23:01:28 +0200> Von: hadez <hadez@c-base.org>> An: mitglieder-announce@lists.shackspace.de> > > hallo zusammen,> wie euch sicher aufgefallen ist, ist der monatsbericht etwas eingeschlafen.> die letzten 4 monate ist einiges passiert, hier der grobe abriss.> > > > # anfragen> es kam wieder viel spam rein, dazwischen aber auch einiges an interessantem.> > - eine anfrage zum minikrebs im lasercutter (stichwort USBIP) wurde initial beantwortet und fuer weitere details an makefu und exco gereicht.> - mitch altman frug an einen workshop im shack zu halten, wuerde ueber die normale eventorga abgewickelt, der workshop kam super an> - kontaktanfrage der wirtschaftsfoerderung rems-murr-kreis zu "making", wurde an mitglieder@ dispatched. in folge dessen kam es zu einem besuch einer zweierdelegation der wifoe rems-murr im shack welche von h0uz3 und hadez bespasst wurden> - anfrage zu "VR Meetup" (vortrag/treffen zu virtual reality themen. wurde von momo und hadez beantwortet> - nach besuch des loetworkshops und fuehrungsprogramm kam von jemand der eine offene werkstatt in stuttgart gruenden will eine anfrage dazu wer unser vermieter in der ulmer strasse ist wurde von jan beantwortet> - uns wurde eine AS/400 angeboten, wurde an mitglieder@ weitergegeben> - eine produktgestalterin fragte an unseren laser benutzen zu koennen, wurde von jan und hadez beantwortet, ging auch ueber public@. stellte sich heraus, was gemacht werden wollte, war sowieso zu gross fuer unseren laser :(> > > > # der kassenwart berichtet> bitte meldet dem vorstand, wenn sich eure postanschrift aendert!> > es gab im zuge der beitragsmahnungen einige austritte.> allerdings auch neueintritte.> die aktuelle mitgliederzahl ist 188.> > die finanzen sind soweit in ordnung, uns geht es gut.> der aktuelle ruecklagenplan sieht vor genuegend selbiger anzulegen, sodass laufende kosten - selbst im falle von null-einnahmen - fuer ein halbes jahr gedeckt sind.> > aktuell befindet sich wegen einer verzoegerung mit dem notar (jan ist dran) auch noch der vollzugriff aufs konto in der schwebe.> wir arbeiten daran, sind aber auch so aktuell voll handlungsfaehig.> > grosse ausgaben ausser der reihe gab es keine ausser projekt arthurstrasse, dazu unten mehr.> mittel fuer die angefragte sandstrahlkabine wurde wegen absicherung aufgrund anhaengiger verfahren nicht freigemacht (s. easterhegg fallout weiter unten).> > ausser der reihe spenden waren rund 60 eur vom mitch altman loetworkshop.> > eine kleine vorschau auf diesen monat:> wir haben eine ausser-der-reihe spende ueber 250 EUR erhalten. \o/> ,v
+> Claus> > ---------- Original Nachricht ----------> Betreff: [shack e.V. announcement] Monatsbericht 2014-03, 2014-04, 2014-05, 2014-06> Datum: Sun, 13 Jul 2014 23:01:28 +0200> Von: hadez <hadez@c-base.org>> An: mitglieder-announce@lists.shackspace.de> > > hallo zusammen,> wie euch sicher aufgefallen ist, ist der monatsbericht etwas eingeschlafen.> die letzten 4 monate ist einiges passiert, hier der grobe abriss.> > > > # anfragen> es kam wieder viel spam rein, dazwischen aber auch einiges an interessantem.> > - eine anfrage zum minikrebs im lasercutter (stichwort USBIP) wurde initial beantwortet und fuer weitere details an makefu und exco gereicht.> - mitch altman frug an einen workshop im shack zu halten, wuerde ueber die normale eventorga abgewickelt, der workshop kam super an> - kontaktanfrage der wirtschaftsfoerderung rems-murr-kreis zu "making", wurde an mitglieder@ dispatched. in folge dessen kam es zu einem besuch einer zweierdelegation der wifoe rems-murr im shack welche von h0uz3 und hadez bespasst wurden> - anfrage zu "VR Meetup" (vortrag/treffen zu virtual reality themen. wurde von momo und hadez beantwortet> - nach besuch des loetworkshops und fuehrungsprogramm kam von jemand der eine offene werkstatt in stuttgart gruenden will eine anfrage dazu wer unser vermieter in der ulmer strasse ist wurde von jan beantwortet> - uns wurde eine AS/400 angeboten, wurde an mitglieder@ weitergegeben> - eine produktgestalterin fragte an unseren laser benutzen zu koennen, wurde von jan und hadez beantwortet, ging auch ueber public@. stellte sich heraus, was gemacht werden wollte, war sowieso zu gross fuer unseren laser :(> > > > # der kassenwart berichtet> bitte meldet dem vorstand, wenn sich eure postanschrift aendert!> > es gab im zuge der beitragsmahnungen einige austritte.> allerdings auch neueintritte.> die aktuelle mitgliederzahl ist 188.> > die finanzen sind soweit in ordnung, uns geht es gut.> der aktuelle ruecklagenplan sieht vor genuegend selbiger anzulegen, sodass laufende kosten - selbst im falle von null-einnahmen - fuer ein halbes jahr gedeckt sind.> > aktuell befindet sich wegen einer verzoegerung mit dem notar (jan ist dran) auch noch der vollzugriff aufs konto in der schwebe.> wir arbeiten daran, sind aber auch so aktuell voll handlungsfaehig.> > grosse ausgaben ausser der reihe gab es keine ausser projekt arthurstrasse, dazu unten mehr.> mittel fuer die angefragte sandstrahlkabine wurde wegen absicherung aufgrund anhaengiger verfahren nicht freigemacht (s. easterhegg fallout weiter unten).> > ausser der reihe spenden waren rund 60 eur vom mitch altman loetworkshop.> > eine kleine vorschau auf diesen monat:> wir haben eine ausser-der-reihe spende ueber 250 EUR erhalten. \o/> > tiefere einblicke mit mehr details und harten zahlen gibt es nachdem dave den pruefungsstress hinter sich hat und die informationen aus den mittlerweile erfolgreich uebergebenen dokumenten auf presentationstauglichkeit aufgearbeitet sind.> > es wurden bereits einige spendenquittungen ausgestellt. wer noch was fuer seine steuer braucht soll sich bitte bei vorstand@ melden.> > > > # projekt arthurstrasse> schon vor einiger zeit im plenum gewesen, nun endlich aktiv.> das projekt arthurstrasse wird grade von h0uz3 und hadez mit support von pi und momo vorangetrieben.> es geht darum in einem fluechtlingsheim ein kleines internetcafe einzurichten.> > steht hier hauptsaechlich, weil es ueber eigens dafuer erhaltene spenden abgewickelt wird und das jetzt angelaufen ist.> ergo eigentlich(tm) keine ungeplante ausgabe :)> > > > # easterhegg> zusammen mit dem cccs haben wir in der arena erfolgreich die easterheg 2014 ausgerichtet.> es war nicht alles einfach und es wurde sogar das ordnungsamt geha^W ueberwunden ;)> das feedback war gut und den gaesten hat es gefallen.> nochmals vielen dank an alle helfer die den shack durch einen super coolen event haben glaenzen lassen!> > > > # easterhegg fallout> es gibt aus dem kontext des events noch ein anhaengiges verfahren welches sich aktuell in klaerung befindet.> der verein hat eine rechnung erhalten die wir als ungerechtferigt/ungueltig ansehen.> um die forderung abzuwheren wurden ein anwalt eingeschaltet.> weitere informationen folgen, sobald wir darueber berichten koennen.> bis dahin bewahrt bitte ruhe und stille. speziell aber nicht nur im beisein von gaesten.> ganz im sinne von "keine auskuenfte zu laufenden verfahren".> > > > # dies und das> selfnet spendete uns netzwerkhardware> der shack hat sich einen "echten" ipv6 tunnel geleistet, momo hats eingerichtet.> wir haben versicherungsscheine!> hadez hat neue visitenkarten enthubelt und sie wurden geliefert.> > > > -- > gruesse, eure papier-muehlen bekaempfenden vorstaende> _______________________________________________> mitglieder-announce mailing list> mitglieder-announce@lists.shackspace.de> https://lists.shackspace.de/mailman/listinfo/mitglieder-announce> _______________________________________________> mitglieder-announce mailing list> mitglieder-announce@lists.shackspace.de> https://lists.shackspace.de/mailman/listinfo/mitglieder-announce> > hallo zusammen,> wie euch sicher aufgefallen ist, ist der monatsbericht etwas eingeschlafen.> die letzten 4 monate ist einiges passiert, hier der grobe abriss.> > > > # anfragen> es kam wieder viel spam rein, dazwischen aber auch einiges an interessantem.> > - eine anfrage zum minikrebs im lasercutter (stichwort USBIP) wurde initial beantwortet und fuer weitere details an makefu und exco gereicht.> - mitch altman frug an einen workshop im shack zu halten, wuerde ueber die normale eventorga abgewickelt, der workshop kam super an> - kontaktanfrage der wirtschaftsfoerderung rems-murr-kreis zu "making", wurde an mitglieder@ dispatched. in folge dessen kam es zu einem besuch einer zweierdelegation der wifoe rems-murr im shack welche von h0uz3 und hadez bespasst wurden> - anfrage zu "VR Meetup" (vortrag/treffen zu virtual reality themen. wurde von momo und hadez beantwortet> - nach besuch des loetworkshops und fuehrungsprogramm kam von jemand der eine offene werkstatt in stuttgart gruenden will eine anfrage dazu wer unser vermieter in der ulmer strasse ist wurde von jan beantwortet> - uns wurde eine AS/400 angeboten, wurde an mitglieder@ weitergegeben> - eine produktgestalterin fragte an unseren laser benutzen zu koennen, wurde von jan und hadez beantwortet, ging auch ueber public@. stellte sich heraus, was gemacht werden wollte, war sowieso zu gross fuer unseren laser :(> > > > # der kassenwart berichtet> bitte meldet dem vorstand, wenn sich eure postanschrift aendert!> > es gab im zuge der beitragsmahnungen einige austritte.> allerdings auch neueintritte.> die aktuelle mitgliederzahl ist 188.> > die finanzen sind soweit in ordnung, uns geht es gut.> der aktuelle ruecklagenplan sieht vor genuegend selbiger anzulegen, sodass laufende kosten - selbst im falle von null-einnahmen - fuer ein halbes jahr gedeckt sind.> > aktuell befindet sich wegen einer verzoegerung mit dem notar (jan ist dran) auch noch der vollzugriff aufs konto in der schwebe.> wir arbeiten daran, sind aber auch so aktuell voll handlungsfaehig.> > grosse ausgaben ausser der reihe gab es keine ausser projekt arthurstrasse, dazu unten mehr.> mittel fuer die angefragte sandstrahlkabine wurde wegen absicherung aufgrund anhaengiger verfahren nicht freigemacht (s. easterhegg fallout weiter unten).> > ausser der reihe spenden waren rund 60 eur vom mitch altman loetworkshop.> > eine kleine vorschau auf diesen monat:> wir haben eine ausser-der-reihe spende ueber 250 EUR erhalten. \o/> > tiefere einblicke mit mehr details und harten zahlen gibt es nachdem dave den pruefungsstress hinter sich hat und die informationen aus den mittlerweile erfolgreich uebergebenen dokumenten auf presentationstauglichkeit aufgearbeitet sind.> > es wurden bereits einige spendenquittungen ausgestellt. wer noch was fuer seine steuer braucht soll sich bitte bei vorstand@ melden.> > > > # projekt arthurstrasse> schon vor einiger zeit im plenum gewesen, nun endlich aktiv.> das projekt arthurstrasse wird grade von h0uz3 und hadez mit support von pi und momo vorangetrieben.> es geht darum in einem fluechtlingsheim ein kleines internetcafe einzurichten.> > steht hier hauptsaechlich, weil es ueber eigens dafuer erhaltene spenden abgewickelt wird und das jetzt angelaufen ist.> ergo eigentlich(tm) keine ungeplante ausgabe :)> > > > # easterhegg> zusammen mit dem cccs haben wir in der arena erfolgreich die easterheg 2014 ausgerichtet.> es war nicht alles einfach und es wurde sogar das ordnungsamt geha^W ueberwunden ;)> das feedback war gut und den gaesten hat es gefallen.> nochmals vielen dank an alle helfer die den shack durch einen super coolen event haben glaenzen lassen!> > > > # easterhegg fallout> es gibt aus dem kontext des events noch ein anhaengiges verfahren welches sich aktuell in klaerung befindet.> der verein hat eine rechnung erhalten die wir als ungerechtferigt/ungueltig ansehen.> um die forderung abzuwheren wurden ein anwalt eingeschaltet.> weitere informationen folgen, sobald wir darueber berichten koennen.> bis dahin bewahrt bitte ruhe und stille. speziell aber nicht nur im beisein von gaesten.> ganz im sinne von "keine auskuenfte zu laufenden verfahren".> > > > # dies und das> selfnet spendete uns netzwerkhardware> der shack hat sich einen "echten" ipv6 tunnel geleistet, momo hats eingerichtet.> wir haben versicherungsscheine!> hadez hat neue visitenkarten enthubelt und sie wurden geliefert.> > > > -- > gruesse, eure papier-muehlen bekaempfenden vorstaende> _______________________________________________> Vorstand mailing list> Vorstand@lists.shackspace.de> https://lists.shackspace.de/mailman/listinfo/vorstand,v
+> Danke. Grüße,,V
+> Guten Tag,> ,V
+@shackspace.de,v
+Cc: @shackspace.de,V
+vorstand,v
+> >,v
+> -- > hadez> _______________________________________________> Vorstand mailing list> Vorstand@lists.shackspace.de> https://lists.shackspace.de/mailman/listinfo/vorstand,v
+> > ,V
+> On Mon, Jul 07, 2014 at 06:05:28PM +0200, Gregor Jehle wrote:> > moin dave,> > mittlerweile sollte genug geld in der laserkasse sein um mir meine> > noch offene rechnung fuer die laserroehren zu begleichen ;)> > thomas hatte das mals nicht gemacht, da noch einige comittments> > ausstanden die sich auf der ML gemeldet hatten.> > ,v
+> :-*> > On 13. Juli 2014 20:43:37 MESZ, "David Mändlen" <david.maendlen@bifroe.st> wrote:> >Hallo Miezi,> >> >ich muss morgen eine Freundin aus dem shack begleiten, die will> >Wanderstiefel kaufen.> >> >Im Woick ist Räumungsverkauf. Brauchst Du noch was? Soll ich Deine> >Stöcke mal reservieren lassen?> >> >Ich liebe Dich :-*> > -- > Von unterwegs gesendet.,v
+> https://lists.shackspace.de/mailman/listinfo/vorstand,V
+> Vorstand mailing list> Vorstand@lists.shackspace.de,V
+> _______________________________________________,V
+,V
+> -- > hadez,V
+> > Dann muss ich nicht mehr mit dem Drucker kämpfen heute.> ,V
+> > Reichts wenn ich das Ding morgen im shack deponier?> > ,V
+> > Mach ich. Ich kann auch selber schnell nachgucken.> > ,V
+> > > kannst du das ausstellen der bescheinigung uebernehmen?> > ,V
+> > > > hadez wrote on 2014-07-13 at 08:07:,V
+> On Sun, Jul 13, 2014 at 09:20:13PM +0200, David Mändlen wrote:> > Hi,,V
+> -- > gruss, hadez,V
+> if you know what i mean :3> ,V
+> > also in dem umfang wie du grade keinen zugriff aufs konto hast :3,V
+> bin grade schon durchs mailbacklog gegangen und hab relevante mails rausgefischt.> ,V
+> dachte ich fang ma an tippen fuer den monatsbericht.> sie wissen schon, transparenz!,V
+> > moin,,V
+> Vorstand@lists.shackspace.de> https://lists.shackspace.de/mailman/listinfo/vorstand,V
+> _______________________________________________> Vorstand mailing list,V
+> danke, hadez,V
+> > -- ,V
+> hi dave,,V
+> hi thomas,> kam das geld schon an?,V
+haben,v
+reserviert ,v
+die ,v
+, ,v
+fdie,v
+ür ,v
+),v
+(,v
+],v
+[,v
+echo $c;,V
+a=$1;b=$2;,V
+c=expr $a+$b;,V
+eval ,v
+let ,v
+fi,V
+then	echo "killed Process $1, PID $PID";,V
+`,v
+ ,v
+f,v
+i,v
+M,v
+R,v
+E,v
+T,v
+-,v
+kill ,v
+{,v
+PROCESS ,v
+PROCESS=$1,V
