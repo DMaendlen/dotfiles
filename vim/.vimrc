@@ -1,8 +1,8 @@
-set nocompatible              " be iMproved, required
+set paste
+set nocompatible		" be iMproved, required
 filetype plugin on 		" required
 
-" set leader to ,
-let mapleader = ","
+let mapleader = ","		" set leader to ,
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -11,7 +11,8 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
+
 Plugin 'digitaltoad/vim-jade'
 Plugin 'mbbill/undotree'
 Plugin 'mattn/emmet-vim'

@@ -1,12 +1,78 @@
-[submodule "vim/.vim/bundle/loremipsum"]
-	path = vim/.vim/bundle/loremipsum
-	url = https://github.com/vim-scripts/loremipsum
-[submodule "vim/.vim/bundle/vim-snippets"]
-	path = vim/.vim/bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets
-[submodule "vim/.vim/bundle/vim-expand-region"]
-	path = vim/.vim/bundle/vim-expand-region
-	url = https://github.com/terryma/vim-expand-region
+[submodule "vim/.vim/bundle/auto-pairs"]
+	path = vim/.vim/bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+
+[submodule "vim/.vim/bundle/emmet-vim"]
+	path = vim/.vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim
+
+[submodule "vim/.vim/bundle/nerdcommenter"]
+	path = vim/.vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+
+[submodule "vim/.vim/bundle/nerdtree"]
+	path = vim/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+
+[submodule "vim/.vim/bundle/nerdtree-git-plugin"]
+	path = vim/.vim/bundle/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+
+[submodule "vim/.vim/bundle/openssl.vim"]
+	path = vim/.vim/bundle/openssl.vim
+	url = https://github.com/vim-scripts/openssl.vim
+
+[submodule "vim/.vim/bundle/supertab"]
+	path = vim/.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab
+
+[submodule "vim/.vim/bundle/syntastic"]
+	path = vim/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
+
+[submodule "vim/.vim/bundle/tlib_vim"]
+	path = vim/.vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim
+
+[submodule "vim/.vim/bundle/undotree"]
+	path = vim/.vim/bundle/undotree
+	url = https://github.com/mbbill/undotree
+
+[submodule "vim/.vim/bundle/vim-addon-mw-utils"]
+	path = vim/.vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils
+
 [submodule "vim/.vim/bundle/vim-airline"]
 	path = vim/.vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+
+[submodule "vim/.vim/bundle/vim-commentary"]
+	path = vim/.vim/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+
+[submodule "vim/.vim/bundle/vim-fugitive"]
+	path = vim/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+
+[submodule "vim/.vim/bundle/vim-jade"]
+	path = vim/.vim/bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade
+
+[submodule "vim/.vim/bundle/vim-multiple-cursors"]
+	path = vim/.vim/bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors
+
+[submodule "vim/.vim/bundle/vim-snipmate"]
+	path = vim/.vim/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
+
+[submodule "vim/.vim/bundle/vim-snippets"]
+	path = vim/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
+
+[submodule "vim/.vim/bundle/Vundle.vim"]
+	path = vim/.vim/bundle/Vundle
+	url = https://github.com/VundleVim/Vundle.vim
+[submodule "vim/.vim/bundle/vim-expand-region"]
+	path = vim/.vim/bundle/vim-expand-region
+	url = https://github.com/terryma/vim-expand-region
