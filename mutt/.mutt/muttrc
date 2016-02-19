@@ -7,7 +7,7 @@ set header_cache        = ~/.mutt/cache/headers                 # where to store
 set message_cachedir    = ~/.mutt/cache/bodies                  # where to store bodies
 set signature           = ~/.mutt/sig                           # my signature file
 set tmpdir              = ~/.mutt/temp                          # where to keep temp files
-set editor              = "vim -c 'set tw=70 et' +/^$"          # use vim and skip to first blank line
+set editor              = "vim -c 'set tw=80 et' +/^$"          # use vim and skip to first blank line
 set print_command       = "enscript -p - | psselect -r | lp"    # print email in reverse page order
 
 # maildir settings
