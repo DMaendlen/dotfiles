@@ -1,11 +1,8 @@
-set paste
-set nocompatible		" be iMproved, required
-filetype plugin on 		" required
-
-let mapleader = ","		" set leader to ,
+filetype off
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -64,6 +61,10 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+set paste
+set nocompatible		" be iMproved, required
+let mapleader = ","		" set leader to ,
 
 " looks
 " set colors
@@ -141,10 +142,7 @@ set modelines=0
 set wrap
 set textwidth=79
 set formatoptions=tqrn1
-set colorcolumn=85
+set colorcolumn=81
 
 " re-hardwrap text
 nnoremap <leader>q gqip
-
-" quicker escaping
-inoremap jj <ESC>
