@@ -75,6 +75,7 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias date="date +'%Y-%m-%d %H:%M'"
+alias auth="view ~/.auth.aes"
 
 # language settings
 export LC_ALL='en_US.UTF-8'
