@@ -12,7 +12,7 @@ set print_command       = "enscript -p - | psselect -r | lp"    # print email in
 
 # maildir settings
 set mbox_type           = Maildir                               # mailbox type
-set folder              = ~/mail                                # mailbox location
+set folder              = ~/Maildir                                # mailbox location
 set spoolfile           = "+Bifrost/INBOX"                        # Bifrost is default inbox
 
 # main options
@@ -131,7 +131,6 @@ bind index,pager R group-reply
 macro index ,i "<change-folder>!<return>" "go to inbox"
 macro index ,h "<change-folder>=hse/INBOX<return>" "go to inbox"
 macro index ,g "<change-folder>=Gmail/INBOX<return>" "go to inbox"
-macro index ,s "<change-folder>=system<return>" "go to inbox"
 macro index ,S "<change-folder>=Bifrost/INBOX/shack.mitglieder<return>" "go to shack"
 macro index ,p "<pipe-message>cat > ~/" "save message as"
 macro index ,z "<shell-escape>offlineimap -q -o<return>" "sync IMAP"
@@ -140,15 +139,10 @@ macro index ,R "<collapse-all><tag-pattern>all<return><tag-prefix><clear-flag>N<
 macro index ,v "<collapse-thread>" "collapse/uncollapse thread"
 macro index ,V "<collapse-all>"    "collapse/uncollapse all threads"
 macro index,pager n '?'\                "Switch to next mailbox
-#search via mairix
-#macro generic ,s "<enter-command>set my_cmd = \`$HOME/.mutt/msearch\`<return><enter-command>push \$my_cmd<return>" "search messages"
+
+# open urls with urlscan
 macro index,pager \cb |urlscan\n
 
-# cc myself when replying to an ML.
-#
-# note: with this, you can't use `:q!` mid-compose to abort the message.
-# instead, you should use `:wq` and abort from the compose menu
-#unhook send-hook
-#send-hook "~u" "push '<edit-cc>,david.maendlen@gmail.com<return>'"
-
-# vim: ft=muttrc
+# find mail using maildir-utils
+macro index ,s "<shell-escape>mu find --clearlinks --format=links --linksdir=~/Maildir/search "                                "mu find"
+macro index ,. "<change-folder-readonly>~/Maildir/search<enter>"                                     "display mu find results"
