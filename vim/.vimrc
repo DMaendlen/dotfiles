@@ -10,20 +10,20 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'digitaltoad/vim-jade'
+"Plugin 'digitaltoad/vim-jade'
 Plugin 'mbbill/undotree'
-Plugin 'mattn/emmet-vim'
+"Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'tomtom/tlib_vim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
+"Plugin 'tomtom/tlib_vim'
+"Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-commentary'
 Plugin 'terryma/vim-expand-region'
-Plugin 'tpope/vim-fugitive'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-commentary'
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'garbas/vim-snipmate'
+"Plugin 'honza/vim-snippets'
 Plugin 'vim-scripts/openssl.vim'
 Plugin 'vim-scripts/loremipsum'
 Plugin 'ervandew/supertab'
@@ -146,3 +146,6 @@ set colorcolumn=81
 
 " re-hardwrap text
 nnoremap <leader>q gqip
+
+" undotreetoggle
+nnoremap <leader>u :UndotreeToggle<cr>
