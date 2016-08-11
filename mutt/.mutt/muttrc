@@ -2,9 +2,9 @@
 
 # directories and commands
 set alias_file          = ~/.mutt/aliases                       # alias file
-set certificate_file    = ~/.mutt/certificates                  # where to store certs
+#set certificate_file    = ~/.mutt/certificates                  # where to store certs
 set header_cache        = ~/.mutt/cache/headers                 # where to store headers
-set message_cachedir    = ~/.mutt/cache/bodies                  # where to store bodies
+#set message_cachedir    = ~/.mutt/cache/bodies                  # where to store bodies
 set signature           = ~/.mutt/sig                           # my signature file
 set tmpdir              = ~/.mutt/temp                          # where to keep temp files
 set editor              = "vim +/^$"				# use vim and skip to first blank line
@@ -39,7 +39,7 @@ set timeout             = 1                                     # idle time befo
 unset wait_key                                                  # don't show "Press any key to continue"
 set quit
 #sidebar
-set sidebar_visible=no
+# set sidebar_visible=no
 
 # enriched messages
 auto_view text/html                                             # view html automatically
@@ -87,8 +87,9 @@ set reverse_name                                                # reply as who i
 #mailboxes +Gmail/INBOX
 
 	source $alias_file                                                # required for functionality
-	source ~/.mutt/colors
 	source ~/.mutt/.gnupg.mutt
+	source ~/.mutt/smime.rc
+	source ~/.mutt/colors
 	source ~/.mutt/mailboxes
 
 # override with account specific folder-hooks
