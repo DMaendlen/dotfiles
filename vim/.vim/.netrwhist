@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/damait06/dotfiles/vim/.vim/bundle/Vundle.vim'
 let g:netrw_dirhist_2='/mnt/etc/cron.daily'
+let g:netrw_dirhist_3='/home/damait06/studium/HS_ES/SS16/oscmt/impl/env/lib/python3.4/site-packages/django/contrib/admin'
+let g:netrw_dirhist_4='/home/damait06/studium/HS_ES/SS16/oscmt/impl/oscmt/casetool/templates/casetool'
+let g:netrw_dirhist_5='/home/damait06/studium/HS_ES/SS16/oscmt/impl/oscmt/casetool/templates/clients'

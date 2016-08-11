@@ -51,7 +51,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin:/usr/local/games:/usr/games:/opt/gradle/bin"
+export PATH="/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin:/usr/local/games:/usr/games/bin"
+export PATH="${PATH}:/opt/android-sdk-update-manager/platform-tools/"
+export PATH="${PATH}:/home/damait06/projects/scripts/"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -59,6 +62,10 @@ export PATH="/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin:/usr/local/games:/usr/
 
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
+
+# Preferred pager
+export PAGER='/usr/bin/vimpager'
+export MANPAGER='/usr/bin/vimmanpager'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -76,6 +83,7 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias date="date +'%Y-%m-%d %H:%M'"
 alias auth="view ~/.auth.aes"
+alias chrome="chromium   --disk-cache-dir=/tmp/cache --scroll-pixels=250 --disk-cache-size=629145600 --memory-model=high"
 
 # language settings
 export LC_ALL='en_US.UTF-8'
