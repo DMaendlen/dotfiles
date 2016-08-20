@@ -22,6 +22,7 @@ ssh/*
 subversion/*
 vim/.viminfo
 vim/.vim/bundle/*
+vim/.vim/.netrwhist
 virt-manager/*
 weechat/.weechat/irc.conf
 weechat/.weechat/weechat.log

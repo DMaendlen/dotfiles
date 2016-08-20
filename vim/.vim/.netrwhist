@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/damait06/.marks'
-let g:netrw_dirhist_2='/home/damait06/.marks/oscmt'
-let g:netrw_dirhist_3='/home/damait06/studium/HS_ES/SS16/oscmt/impl/oscmt/oscmt'
-let g:netrw_dirhist_4='/home/damait06/studium/HS_ES/SS16/thesis/oscmt/ansible-playbooks/postgresql'
