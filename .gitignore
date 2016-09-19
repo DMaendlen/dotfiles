@@ -9,6 +9,7 @@ mutt/.mutt/alias*
 mutt/.mutt/bifroest*
 mutt/.mutt/cache/*
 mutt/.mutt/gmail
+mutt/.mutt/gpg_rules
 mutt/.mutt/hse
 mutt/.mutt/mailboxes
 mutt/.mutt/sig*

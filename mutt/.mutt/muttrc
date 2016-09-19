@@ -85,12 +85,12 @@ set reverse_name                                                # reply as who i
 
 # list of folders to notify of new mail
 #mailboxes +Gmail/INBOX
+mailboxes `find ~/Maildir/ -type d -name cur -printf '%h\n'|grep -v '/home/damait06/Maildir/Bifrost/spam$'|tr "\n" " "`
 
 	source $alias_file                                                # required for functionality
 	source ~/.mutt/.gnupg.mutt
 	source ~/.mutt/smime.rc
 	source ~/.mutt/colors
-	source ~/.mutt/mailboxes
 
 # override with account specific folder-hooks
 #folder-hook Gmail/*      source ~/.mutt/gmail
