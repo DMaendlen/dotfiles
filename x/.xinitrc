@@ -25,6 +25,9 @@ xmodmap -e "keycode 66 = Multi_key"
 #make sure we have a wallpaper
 feh --bg-scale /home/damait06/.i3/wallpaper.png
 
+# make sure we run ssh-agent
+eval $(ssh-agent -s)
+
 #redshift with stuttgart-timezone
 exec redshift -l 48:9 &
 
