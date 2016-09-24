@@ -45,7 +45,7 @@ ZSH_THEME="afowler"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(debian rsync git sprunge jump iwhois myip ssh-agent thefuck)
+plugins=(rsync git sprunge jump iwhois myip ssh-agent thefuck)
 
 source $ZSH/oh-my-zsh.sh
 
