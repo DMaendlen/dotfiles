@@ -17,6 +17,9 @@ set softtabstop=8
 set noexpandtab
 autocmd FileType python set tabstop=4 | set shiftwidth=4 | set expandtab
 
+"map leader
+let mapleader = ","
+
 "view
 set relativenumber
 set showcmd
@@ -70,7 +73,7 @@ call vundle#end()
 set wrap
 set textwidth=80
 set formatoptions=tqrn1
-nnoremap <leader> q gqip
+nnoremap <leader>q gqip
 
 "no trailing whitespaces
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
