@@ -71,7 +71,7 @@ set reverse_name                                                # reply as who i
 #set mime_forward	= yes
 #set mime_forward_rest	= yes
 	set attribution     = "%n wrote on %d:"                        # set the attribution
-	set mailcap_path = ~/.mutt/mailcap
+	set mailcap_path = ~/.mutt/Maildircap
 
 	set send_charset="utf-8"
 
@@ -100,6 +100,9 @@ mailboxes `find ~/Maildir/ -type d -name cur -printf '%h\n'|grep -v '/home/damai
 			  folder-hook Bifrost/INBOX.shack.mitglieder source ~/.mutt/bifroest_shackm
 			  folder-hook Bifrost/INBOX.abuse source ~/.mutt/bifroest_abuse
 			  folder-hook Bifrost/INBOX.thw source ~/.mutt/bifroest_thw
+			  folder-hook Bifrost/INBOX.lugs source ~/.mutt/bifroest_lugs
+			  folder-hook Bifrost/INBOX.hacking.cccs source ~/.mutt/bifroest_cccs
+			  folder-hook Bifrost/INBOX.hacking.ffs source ~/.mutt/bifroest_ffs
 
 # collapse all thread in ML folders
 #folder-hook Gmail/(arch_lists|xmonad_list|web_devel|yesod) "exec collapse-all"
