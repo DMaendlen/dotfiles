@@ -67,6 +67,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-scripts/openssl.vim'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 "handle long lines correctly
