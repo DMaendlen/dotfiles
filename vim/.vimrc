@@ -11,11 +11,12 @@ colorscheme zellner
 
 "syntax
 syntax enable
-filetype indent plugin on
+filetype plugin indent on
+set autoindent
+set smartindent
 set tabstop=8
 set softtabstop=8
 set noexpandtab
-autocmd FileType python set tabstop=4 | set shiftwidth=4 | set expandtab
 
 "map leader
 let mapleader = ","
@@ -68,6 +69,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-scripts/openssl.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 "handle long lines correctly
@@ -78,3 +81,13 @@ nnoremap <leader>q gqip
 
 "no trailing whitespaces
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+"configure syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
