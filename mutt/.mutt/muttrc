@@ -103,6 +103,13 @@ mailboxes `find ~/Maildir/ -type d -name cur -printf '%h\n'|grep -v '/home/damai
 			  folder-hook Bifrost/INBOX.lugs source ~/.mutt/bifroest_lugs
 			  folder-hook Bifrost/INBOX.hacking.cccs source ~/.mutt/bifroest_cccs
 			  folder-hook Bifrost/INBOX.freifunk.stuttgart source ~/.mutt/bifroest_ffs
+			  folder-hook Bifrost/INBOX.sha2017.angel source ~/.mutt/bifroest_sha2017angel
+			  folder-hook Bifrost/INBOX.sha2017.announce source ~/.mutt/bifroest_sha2017announce
+			  folder-hook Bifrost/INBOX.sha2017.familyvillage source ~/.mutt/bifroest_sha2017familyvillage
+			  folder-hook Bifrost/INBOX.sha2017.logistics source ~/.mutt/bifroest_sha2017logistics
+			  folder-hook Bifrost/INBOX.sha2017.safety source ~/.mutt/bifroest_sha2017safety
+			  folder-hook Bifrost/INBOX.sha2017.tickets source ~/.mutt/bifroest_sha2017tickets
+
 
 # collapse all thread in ML folders
 #folder-hook Gmail/(arch_lists|xmonad_list|web_devel|yesod) "exec collapse-all"
