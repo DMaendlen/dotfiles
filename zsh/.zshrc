@@ -105,3 +105,6 @@ if [ "$(tty)" = "/dev/tty1" ]; then
 	startx
 	logout
 fi 
+
+# get shellprompt for powerline
+/usr/lib64/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh
