@@ -23,6 +23,7 @@ let mapleader = ","
 
 "view
 set relativenumber
+set number
 set showcmd
 set cursorline
 set wildmenu
@@ -71,6 +72,8 @@ Plugin 'vim-scripts/openssl.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 
 "handle long lines correctly
@@ -94,3 +97,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" activate statusline all the time
+set laststatus=2

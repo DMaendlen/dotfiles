@@ -17,6 +17,7 @@ mutt/.mutt/temp/*
 netrc/*
 offlineimap/*
 pulse/*
+pwsafe/*
 pwgorilla/*
 sig
 ssh/*
