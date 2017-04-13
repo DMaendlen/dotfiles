@@ -94,7 +94,6 @@ mailboxes `find ~/Maildir/ -type d -name cur -printf '%h\n'|grep -v '/home/damai
 
 # override with account specific folder-hooks
 #folder-hook Gmail/*      source ~/.mutt/gmail
-			  folder-hook hse/* 	source ~/.mutt/hse
 			  folder-hook Bifrost/INBOX.* 	source ~/.mutt/bifroest
 			  folder-hook Bifrost/INBOX.shack/* source ~/.mutt/bifroest_shack
 			  folder-hook Bifrost/INBOX.shack.mitglieder source ~/.mutt/bifroest_shackm
@@ -140,7 +139,6 @@ bind index,pager R group-reply
 
 # macros
 macro index ,i "<change-folder>!<return>" "go to inbox"
-macro index ,h "<change-folder>=hse/INBOX<return>" "go to inbox"
 macro index ,g "<change-folder>=Gmail/INBOX<return>" "go to inbox"
 macro index ,S "<change-folder>=Bifrost/INBOX/shack.mitglieder<return>" "go to shack"
 macro index ,p "<pipe-message>cat > ~/" "save message as"
