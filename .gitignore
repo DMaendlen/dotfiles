@@ -1,3 +1,4 @@
+*.gpg
 *.swp
 auth/*
 bash/.bash_history
