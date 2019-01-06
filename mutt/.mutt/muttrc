@@ -11,16 +11,14 @@ set editor              = "vim +/^$"				# use vim and skip to first blank line
 set print_command       = "enscript -p - | psselect -r | lp"    # print email in reverse page order
 
 # maildir settings
-set mbox_type           = Maildir                               # mailbox type
-set folder              = ~/Maildir                                # mailbox location
-set spoolfile           = "+Bifrost/INBOX"                        # Bifrost is default inbox
+source ~/.mutt/mailboxsettings
 
 # main options
-set beep_new                                                    # terminal bell on new message
+#set beep_new                                                   # terminal bell on new message
 unset confirmappend                                             # don't ask, just do
 set delete                                                      # don't ask, just do
-set mail_check=3                                     # minimum time between scans
-set mail_check_recent = no
+set mail_check		= 60                                    # minimum time between scans
+set mail_check_recent	= yes
 unset markers                                                   # no ugly plus signs
 unset mark_old                                                  # read/new is good enough for me
 set menu_scroll                                                 # scroll in menus
@@ -30,16 +28,17 @@ set pager_stop                                                  # don't go to ne
 set pipe_decode                                                 # strip headers and eval mimes when piping
 set reverse_alias                                               # show names from alias file in index
 set sort                = threads                               # like gmail
+set strict_threads	= yes
 #set sort_aux           = reverse-last-date-received            # like gmail
 unset sort_re                                                   # always thread
 set thorough_search                                             # strip headers and eval mimes before searching
 set thread_received                                             # sort threads by date received, not sent
 set tilde                                                       # show tildes like in vim
-set timeout             = 1                                     # idle time before scanning
+set timeout             = 5                                     # idle time before scanning
 unset wait_key                                                  # don't show "Press any key to continue"
 set quit
 #sidebar
-# set sidebar_visible=no
+unset sidebar_visible
 
 # enriched messages
 auto_view text/html                                             # view html automatically
@@ -64,54 +63,45 @@ set include                                                     # include messag
 set realname            = "David Mändlen"                       # who am i?
 set reply_to                                                    # reply to Reply-to: field, not From:
 set reverse_name                                                # reply as who it was sent to (see alternates)
-	set envelope_from
-	set sig_dashes
-	set sendmail_wait       = -1
-	set fcc_attach
-#set mime_forward	= yes
-#set mime_forward_rest	= yes
-	set attribution     = "%n wrote on %d:"                        # set the attribution
-	set mailcap_path = ~/.mutt/Maildircap
-
-	set send_charset="utf-8"
+set envelope_from
+set sig_dashes
+set sendmail_wait       = -1
+set fcc_attach
+set mime_forward	= yes
+set mime_forward_rest	= yes
+set attribution     = "%n wrote on %d:"                        # set the attribution
+set mailcap_path = ~/.mutt/mailcap
+set send_charset="utf-8"
 
 # headers to show
-	ignore *                                                          # ignore all headers
-	unignore from: to: cc: date: subject:                             # show only these
-	hdr_order from: to: cc: date: subject:                            # and in this order
-
-# lists
-#subscribe niveausenke@lists.shackspace.de mitglieder@lists.shackspace.de public@lists.shackspace.de ixs_public_cccs.de@bawue.de lugs.lug-s.org key@lists.shackspace.de mcf@lists.shackspace.de tinc@tinc-vpn.org wlanware@freifunk.net berlin@berlin.freifunk.net freecycle-stuttgart@yahoogroups.de eh2014-orga@lists.shackspace.de offlineimap-project@lists.alioth.debian.org full-disclosure@lists.grok.org.uk
+ignore *                                                          # ignore all headers
+unignore from: to: cc: date: subject:                             # show only these
+hdr_order from: to: cc: date: subject:                            # and in this order
 
 # list of folders to notify of new mail
 #mailboxes +Gmail/INBOX
-mailboxes `find ~/Maildir/ -type d -name cur -printf '%h\n'|grep -v '/home/damait06/Maildir/Bifrost/spam$'|tr "\n" " "`
+#mailboxes `find ~/Maildir/ -type d -name cur -printf '%h\n'|grep -v '/home/damait06/Maildir/Bifrost/spam$'|tr "\n" " "`
 
-	source $alias_file                                                # required for functionality
-	source ~/.mutt/.gnupg.mutt
-	source ~/.mutt/smime.rc
-	source ~/.mutt/colors
+source $alias_file	# required for functionality
+source ~/.mutt/.gnupg.mutt
+source ~/.mutt/smime.rc
+source ~/.mutt/colors
 
 # override with account specific folder-hooks
-#folder-hook Gmail/*      source ~/.mutt/gmail
-			  folder-hook Bifrost/INBOX.* 	source ~/.mutt/bifroest
-			  folder-hook Bifrost/INBOX.shack/* source ~/.mutt/bifroest_shack
-			  folder-hook Bifrost/INBOX.shack.mitglieder source ~/.mutt/bifroest_shackm
-			  folder-hook Bifrost/INBOX.abuse source ~/.mutt/bifroest_abuse
-			  folder-hook Bifrost/INBOX.thw source ~/.mutt/bifroest_thw
-			  folder-hook Bifrost/INBOX.lugs source ~/.mutt/bifroest_lugs
-			  folder-hook Bifrost/INBOX.hacking.cccs source ~/.mutt/bifroest_cccs
-			  folder-hook Bifrost/INBOX.freifunk.stuttgart source ~/.mutt/bifroest_ffs
-			  folder-hook Bifrost/INBOX.sha2017.angel source ~/.mutt/bifroest_sha2017angel
-			  folder-hook Bifrost/INBOX.sha2017.announce source ~/.mutt/bifroest_sha2017announce
-			  folder-hook Bifrost/INBOX.sha2017.familyvillage source ~/.mutt/bifroest_sha2017familyvillage
-			  folder-hook Bifrost/INBOX.sha2017.logistics source ~/.mutt/bifroest_sha2017logistics
-			  folder-hook Bifrost/INBOX.sha2017.safety source ~/.mutt/bifroest_sha2017safety
-			  folder-hook Bifrost/INBOX.sha2017.tickets source ~/.mutt/bifroest_sha2017tickets
-
-
-# collapse all thread in ML folders
-#folder-hook Gmail/(arch_lists|xmonad_list|web_devel|yesod) "exec collapse-all"
+folder-hook INBOX				source ~/.mutt/bifroest
+folder-hook INBOX.abuse				source ~/.mutt/abuse
+folder-hook INBOX.freifunk.stuttgart		source ~/.mutt/ffs
+folder-hook INBOX.seclists.fulldisclosure	source ~/.mutt/fulldisclosure
+folder-hook INBOX.hacking.ccc			source ~/.mutt/ccc
+folder-hook INBOX.hacking.cccs			source ~/.mutt/cccs
+folder-hook INBOX.lugs				source ~/.mutt/lugs
+folder-hook INBOX.seclists.pentest		source ~/.mutt/pentest
+folder-hook INBOX.seclists.secbasics		source ~/.mutt/secbasics
+folder-hook INBOX.shack/*			source ~/.mutt/shack
+folder-hook INBOX.shack.key			source ~/.mutt/shackk
+folder-hook INBOX.shack.mitglieder		source ~/.mutt/shackm
+folder-hook INBOX.shack.public			source ~/.mutt/shackp
+folder-hook INBOX.thw				source ~/.mutt/thw
 
 # these just give me headaches
 bind index,pager \# noop
@@ -139,10 +129,8 @@ bind index,pager R group-reply
 
 # macros
 macro index ,i "<change-folder>!<return>" "go to inbox"
-macro index ,g "<change-folder>=Gmail/INBOX<return>" "go to inbox"
-macro index ,S "<change-folder>=Bifrost/INBOX/shack.mitglieder<return>" "go to shack"
 macro index ,p "<pipe-message>cat > ~/" "save message as"
-macro index ,z "<shell-escape>offlineimap -q -o<return>" "sync IMAP"
+macro index ,z  "<imap-fetch-mail>" "sync IMAP"
 macro index ,r "<tag-pattern>all<return><tag-prefix><clear-flag>N<untag-pattern>all<return>" "mark all as read"
 macro index ,R "<collapse-all><tag-pattern>all<return><tag-prefix><clear-flag>N<untag-pattern>all<return><collapse-all>" "mark all as read (collapsed)"
 macro index ,v "<collapse-thread>" "collapse/uncollapse thread"
@@ -151,7 +139,3 @@ macro index,pager n '?'\                "Switch to next mailbox
 
 # open urls with urlscan
 macro index,pager \cb |urlscan\n
-
-# find mail using maildir-utils
-macro index ,s "<shell-escape>mu find --clearlinks --format=links --linksdir=~/Maildir/search "                                "mu find"
-macro index ,. "<change-folder-readonly>~/Maildir/search<enter>"                                     "display mu find results"

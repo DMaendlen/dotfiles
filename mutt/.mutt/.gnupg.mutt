@@ -4,7 +4,7 @@ set pgp_good_sign="`gettext -d gnupg -s 'Good signature from "' | tr -d '"'`"
 set crypt_use_gpgme = yes
 
 # specify the uid to use when encrypting/signing
-set pgp_sign_as=0xa197dda1
+set pgp_sign_as=0x713DAAECA197DDA1
 
 # this set the number of seconds to keep in memory the passphrase used to encrypt/sign
 # the more the less secure it will be

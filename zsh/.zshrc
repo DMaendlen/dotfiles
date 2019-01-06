@@ -84,12 +84,14 @@ export EDITOR='vim'
 alias date="date +'%Y-%m-%d %H:%M'"
 alias auth="view ~/.auth.aes"
 alias chrome="chromium   --disk-cache-dir=/tmp/cache --scroll-pixels=250 --disk-cache-size=629145600 --memory-model=high"
+alias ip="ip --color"
+alias ipb="ip --color --brief"
 
 # language settings
-export LANG=en_US.utf8
+export LANG="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 export LC_NUMERIC="en_US.UTF-8"
-export LC_TIME="de_DE.UTF-8"
+export LC_TIME="en_DK.UTF-8"
 export LC_COLLATE="en_US.UTF-8"
 export LC_MONETARY="de_DE.UTF-8"
 export LC_MESSAGES="en_US.UTF-8"
@@ -99,6 +101,7 @@ export LC_ADDRESS="de_DE.UTF-8"
 export LC_TELEPHONE="de_DE.UTF-8"
 export LC_MEASUREMENT="de_DE.UTF-8"
 export LC_IDENTIFICATION="en_US.UTF-8"
+export LC_ALL=
 
 # autostartx
 if [ "$(tty)" = "/dev/tty1" ]; then

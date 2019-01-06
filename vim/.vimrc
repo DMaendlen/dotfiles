@@ -7,7 +7,7 @@ set encoding=utf-8
 "colors
 set t_Co=256
 set background=dark
-colorscheme delek
+colorscheme desert
 
 "syntax
 syntax enable
