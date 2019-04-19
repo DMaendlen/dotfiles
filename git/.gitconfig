@@ -13,3 +13,5 @@
 	default = matching
 [alias]
 	trash = git commit -m 'setting textwidth to 80 chars in mutt' add . && git commit -m 'trash' && git reset --hard HEAD^
+[commit]
+	gpgsign = true
