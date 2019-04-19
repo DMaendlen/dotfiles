@@ -69,7 +69,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'google/yapf'
-Plugin 'dmaendlen/vim-isort'
 Plugin 'PeterRincker/vim-argumentative'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
