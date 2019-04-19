@@ -1,6 +1,7 @@
 [user]
 	name = David Mändlen
 	email = david.maendlen@bifroe.st
+	signingkey = 0x713DAAECA197DDA1
 [credential]
 	helper = cache --timeout=3600
 [merge]
