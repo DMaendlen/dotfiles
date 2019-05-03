@@ -83,7 +83,6 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias date="date +'%Y-%m-%d %H:%M'"
 alias auth="view ~/.auth.aes"
-alias chrome="chromium   --disk-cache-dir=/tmp/cache --scroll-pixels=250 --disk-cache-size=629145600 --memory-model=high"
 alias ip="ip --color"
 alias ipb="ip --color --brief"
 
