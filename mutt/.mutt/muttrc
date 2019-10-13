@@ -11,7 +11,7 @@ set editor              = "vim +/^$"				# use vim and skip to first blank line
 set print_command       = "enscript -p - | psselect -r | lp"    # print email in reverse page order
 
 # maildir settings
-source ~/.mutt/mailboxsettings
+source ~/.mutt/bifroestsettings
 
 # main options
 #set beep_new                                                   # terminal bell on new message
@@ -136,6 +136,8 @@ macro index ,R "<collapse-all><tag-pattern>all<return><tag-prefix><clear-flag>N<
 macro index ,v "<collapse-thread>" "collapse/uncollapse thread"
 macro index ,V "<collapse-all>"    "collapse/uncollapse all threads"
 macro index,pager n '?'\                "Switch to next mailbox
+macro index,pager ,a	'<sync-mailbox><enter-command>source ~/.mutt/archivesettings<enter><change-folder>!<enter>'
+macro index,pager ,b	'<sync-mailbox><enter-command>source ~/.mutt/bifroestsettings<enter><change-folder>!<enter>'
 
 # open urls with urlscan
 macro index,pager \cb |urlscan\n

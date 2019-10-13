@@ -1,8 +1,7 @@
 set mbox_type           = Maildir                               # mailbox type
 set spoolfile		= "imaps://mehl.schokokeks.org/INBOX"
 set folder		= "imaps://mehl.schokokeks.org/INBOX"
-set imap_user		= "david.maendlen@bifroe.st"
-source "gpg -dq ~/.mutt/passwords.gpg |"
-set imap_pass		= $my_pass
+set imap_user		= "archivedm@bifroe.st"
+set imap_pass		= "`pass archive@bifroe.st`"
 set ssl_starttls	= yes
 set imap_check_subscribed
