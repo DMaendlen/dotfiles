@@ -33,7 +33,10 @@ eval $(ssh-agent -s)
 exec redshift -l 48:9 &
 
 #lockscreen
-exec xautolock -time 5 -locker '/home/damait06/projects/scripts/trolllock.sh' &
+exec xautolock -time 5 -locker '/home/dmaendlen/projects/scripts/trolllock.sh' &
+
+# turn on second screen
+#exec ~/dotfiles/x/displaylink.sh
 
 #finally start i3
 exec i3
