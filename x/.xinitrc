@@ -14,6 +14,7 @@ fi
 #xinput --set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Timeout" 200
 ## horizontal and vertical scrolling
 #xinput --set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Axes" 6 7 4 5
+xinput --disable 11
 xinput --enable 12
 
 #kill bell
