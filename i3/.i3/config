@@ -27,7 +27,7 @@ floating_modifier $mod
 bindsym $mod+Return exec urxvt
 
 #lock screen
-bindsym Ctrl + Mod1 + l exec /home/damait06/projects/scripts/trolllock.sh
+bindsym Ctrl + Mod1 + l exec /home/dmaendlen/projects/scripts/trolllock.sh
 
 # kill focused window
 bindsym $mod+c  kill
