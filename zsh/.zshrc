@@ -85,6 +85,7 @@ alias date="date +'%Y-%m-%d %H:%M'"
 alias auth="view ~/.auth.aes"
 alias ip="ip --color"
 alias ipb="ip --color --brief"
+alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 # language settings
 export LANG="en_US.UTF-8"
@@ -101,6 +102,9 @@ export LC_TELEPHONE="de_DE.UTF-8"
 export LC_MEASUREMENT="de_DE.UTF-8"
 export LC_IDENTIFICATION="en_US.UTF-8"
 export LC_ALL=
+
+# NMAP privileged
+export NMAP_PRIVILEGED=""
 
 # autostartx
 if [ "$(tty)" = "/dev/tty1" ]; then

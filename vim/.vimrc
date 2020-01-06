@@ -69,16 +69,18 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'google/yapf'
-Plugin 'PeterRincker/vim-argumentative'
+"Plugin 'PeterRincker/vim-argumentative'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-Plugin 'vim-scripts/openssl.vim'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'vim-scripts/openssl.vim'
+"Plugin 'Valloric/YouCompleteMe'
 "Plugin 'vim-syntastic/syntastic'
+Plugin 'pearofducks/ansible-vim'
+Plugin 'neomake/neomake'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'w0rp/ale'
-Plugin 'godlygeek/tabular'
+"Plugin 'godlygeek/tabular'
 call vundle#end()
 
 "handle long lines correctly
@@ -110,4 +112,4 @@ set laststatus=2
 autocmd FileType python nnoremap <LocalLeader>= :0,$!yapf<CR>
 
 " sort python imports
-autocmd FileType python nnoremap <LocalLeader>. :!isort %<CR><CR>
+"autocmd FileType python nnoremap <LocalLeader>. :!isort %<CR><CR>
