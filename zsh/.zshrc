@@ -52,8 +52,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin:/usr/local/games:/usr/games/bin"
-export PATH="${PATH}:/opt/android-sdk-update-manager/platform-tools/"
-export PATH="${PATH}:/home/damait06/projects/scripts/"
+export PATH="~/.local/bin:${PATH}"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
