@@ -7,6 +7,7 @@ gnupg/*
 i3/.i3/i3log
 msmtp/*
 mutt/.mutt/alias*
+mutt/.mutt/archive*
 mutt/.mutt/bifroest*
 mutt/.mutt/cache/*
 mutt/.mutt/gmail
