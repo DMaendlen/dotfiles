@@ -1,0 +1,16 @@
+2020/03/31-19:02:22.996 50f3 Reusing MANIFEST /home/dmaendlen/.config/chromium/Default/IndexedDB/https_zoom.us_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/31-19:02:24.331 52dc Level-0 table #5: started
+2020/03/31-19:02:24.386 52dc Level-0 table #5: 2677365 bytes OK
+2020/03/31-19:02:24.395 50f3 Current memtable full; waiting...
+2020/03/31-19:02:24.399 52dc Delete type=0 #3
+2020/03/31-19:02:24.400 52dc Level-0 table #7: started
+2020/03/31-19:02:24.419 50f3 Current memtable full; waiting...
+2020/03/31-19:02:24.471 52dc Level-0 table #7: 3276028 bytes OK
+2020/03/31-19:02:24.477 52dc Delete type=0 #4
+2020/03/31-19:02:24.478 52dc Level-0 table #9: started
+2020/03/31-19:02:24.530 5102 Current memtable full; waiting...
+2020/03/31-19:02:24.598 52dc Level-0 table #9: 2183747 bytes OK
+2020/03/31-19:02:24.633 52dc Delete type=0 #6
+2020/03/31-19:02:24.634 52dc Level-0 table #11: started
+2020/03/31-19:02:24.700 52dc Level-0 table #11: 2183747 bytes OK
+2020/03/31-19:02:24.739 52dc Delete type=0 #8

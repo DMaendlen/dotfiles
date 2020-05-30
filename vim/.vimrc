@@ -80,6 +80,7 @@ Plugin 'neomake/neomake'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'w0rp/ale'
+Plugin 'rkitover/vimpager'
 "Plugin 'godlygeek/tabular'
 call vundle#end()
 

@@ -1,0 +1,1181 @@
+[0.000s]8 talk.media.webrtc.Extension: Sending message {"method":"logging.start"}
+[0.047s]8 talk.media.webrtc.Extension: Sending message {"method":"cpu.getInfo"}
+[0.047s]8 talk.media.webrtc.Extension: Sending message {"method":"getHardwarePlatformInfo"}
+[0.077s]10 talk.media.webrtc.Extension: Method: logging.start; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[0.078s]8 talk.media.webrtc.Extension: Sending message {"method":"logging.start"}
+[0.079s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[0.080s]10 talk.media.webrtc.Extension: Method: getHardwarePlatformInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[0.080s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[0.096s]10 talk.media.webrtc.Extension: Method: logging.start; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[0.200s]8 realtime.media.api.webrtc.LoggingManager: Logging manager initialized with userId: david.maendlen@googlemail.com
+[0.200s]8 realtime.media.api.webrtc.LoggingManager: Requesting native WebRTC logging
+[0.200s]8 realtime.media.session.SessionManager: Updating default options to: {"useAudio":true,"useVideo":true,"useData":true,"useVideoRtx":true,"useAudioUplinkNack":false,"dumpRtpHeaders":false,"allowEarlyMedia":true,"earlyMediaHangoutId":null,"defaultRequests":[],"useStandardIce":true,"debugLogUploadAllowed":false,"debugLogUploadForced":false,"clientResource":"elaneF1983940","useCallPerf":true,"useSimulcast":true,"useP2P":false,"useTURN":false,"startMuted":true,"useDtls":true,"useConferenceMode":true,"AudioDscp":null,"VideoDscp":null,"useVirtualAudioSSRCs":true,"allowH264":false,"allowVp9":false,"sendVp9":false,"forceVp9":false,"useAdaptiveLayering_":false,"useWebrtcCpuAdaptation":true,"useBackendLoudestSpeaker":true,"bandwidthConstraints":null,"jmiUploadIntervalMs":10000,"shouldHistogramData":false,"allowOnlyRequestedVideo":false,"isTestCall":false,"audioJitterBufferMinDelayMs":0,"disableDtlsForP2P":false,"audioProcessorConfig":null,"screencastMinBitrate":null,"audioLevelMode":0,"usePassiveListener":false,"passiveModeDelayMillis":1000,"excludeSelfStreams":true,"allowSinglecast":true,"allowVideoProcessing":false}
+[0.201s]8 realtime.media.audio.EchoDetector: EchoDetector constructor
+[0.201s]8 realtime.media.api.webrtc.AudioMonitor: Registering peer controller=PeerController(sessionId=c20669092941054615034_NMS).
+[0.201s]8 realtime.media.api.apiary.RemoteSession: Creating a new remote session with earlyMediaHangoutId=null P2P=false useAudio=true useVideo=true
+[0.201s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Creating a new session with options={"useAudio":true,"useVideo":true,"useData":true,"useVideoRtx":true,"useAudioUplinkNack":false,"dumpRtpHeaders":false,"allowEarlyMedia":true,"earlyMediaHangoutId":null,"defaultRequests":[],"useStandardIce":true,"debugLogUploadAllowed":false,"debugLogUploadForced":false,"clientResource":"elaneF1983940","useCallPerf":true,"useSimulcast":true,"useP2P":false,"useTURN":false,"startMuted":true,"useDtls":true,"useConferenceMode":true,"AudioDscp":null,"VideoDscp":null,"useVirtualAudioSSRCs":true,"allowH264":false,"allowVp9":false,"sendVp9":false,"forceVp9":false,"useAdaptiveLayering_":false,"useWebrtcCpuAdaptation":true,"useBackendLoudestSpeaker":true,"bandwidthConstraints":{"F":-1,"P":-1,"X":-1},"jmiUploadIntervalMs":10000,"shouldHistogramData":false,"allowOnlyRequestedVideo":false,"isTestCall":false,"audioJitterBufferMinDelayMs":0,"disableDtlsForP2P":false,"audioProcessorConfig":null,"screencastMinBitrate":null,"audioLevelMode":0,"usePassiveListener":false,"passiveModeDelayMillis":1000,"excludeSelfStreams":true,"allowSinglecast":true,"allowVideoProcessing":false}.
+[0.201s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Now has these 0 participant(s): []
+[0.201s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: send initiate.
+[0.201s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Instantiating new peer
+[0.201s]8 realtime.media.api.webrtc.PeerConnection: Creating new PeerConnection with config={"iceServers":[],"bundlePolicy":"max-bundle","sdpSemantics":"plan-b"} constraints={"mandatory":{"RtpDataChannels":false,"DtlsSrtpKeyAgreement":true},"optional":[{"googHighStartBitrate":true},{"googHighBitrate":true},{"googPayloadPadding":true},{"googSkipEncodingUnusedStreams":true},{"googScreencastMinBitrate":400},{"googVeryHighBitrate":true},{"googCpuOveruseDetection":true},{"googCpuOveruseEncodeUsage":true},{"googCpuUnderuseThreshold":55},{"googCpuOveruseThreshold":85}]}
+[0.201s]8 realtime.media.api.webrtc.PeerNegotiator: Creating initial offer.
+[0.201s]8 realtime.media.api.webrtc.PeerNegotiator: Creating a local offer (isIceRestart=false).
+[0.201s]8 realtime.media.session.SessionManager: SessionManager changed state from INITIAL to STARTING
+[0.201s]8 realtime.media.api.webrtc.DeviceManager: Unable to load persistent device state from local storage.
+[0.201s]8 realtime.media.capture.device.Collection: Initializing Camera collection. Selected device is Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isSelected=false)
+[0.201s]8 realtime.media.capture.device.Collection: Initializing Microphone collection. Selected device is Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isSelected=false)
+[0.201s]8 realtime.media.capture.device.Collection: Initializing Speaker collection. Selected device is Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isSelected=false)
+[0.201s]8 realtime.media.capture.device.Collection: Choosing Speaker Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isSelected=false) for media request.
+[0.201s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Starting media.
+[0.201s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Updating device state to: re
+[0.201s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.201s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.201s]8 realtime.media.audio.service.AudioVolumeService: Use backend loudest info.
+[0.201s]8 realtime.media.session.SessionManager: Adding capture: {"config":null,"muted":false,"state":"Gerät bereit"}
+[0.201s]8 boq.hangoutsexpresslaneui.model.CallModel: participant_log_id: elane_0farOiPGu4Z
+[0.201s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [0] POST /hangouts/v1/hangouts/add (deadline=3000ms, remainingRetries=8)
+[0.201s]8 boq.hangoutsexpresslaneui.model.CallModel: Start source: 119
+[0.201s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [1] POST /hangouts/v1/media_sessions/log (deadline=60000ms, remainingRetries=0)
+[0.201s]8 realtime.media.api.webrtc.Utils: Could not get getHardwarePlatformInfo from extension: talk.media.webrtc.Extension: Method: getHardwarePlatformInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[0.201s]8 realtime.media.api.webrtc.PeerNegotiator: Initial offer successfully created.
+[0.201s]8 realtime.media.api.webrtc.PeerNegotiator: Creating the initial local description from the offer SDP.
+[0.201s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Creating the initial local description succeeded
+[0.201s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Registering sessionId=c20669092941054615034_NMS.
+[0.201s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Adding capture=Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)
+[0.201s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Successfully added capture: {"config":null,"muted":false,"state":"Gerät bereit"}
+[0.201s]8 realtime.media.session.SessionManager: Local session initialize completed.
+[0.201s]9 Warning(boq.hangoutsexpresslaneui.model.CallModel): ErrorReport: Latency: hasLocalCam API state 6 : Latency: hasLocalCam API state 6
+Browser: ErrorReport: Latency: hasLocalCam API state 6: Latency: hasLocalCam API state 6
+    at new Zm (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:440:61)
+    at Object._.bn (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:442:122)
+    at Object._.pk (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:441:121)
+    at Object._.qk (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:320:297)
+    at cn.Mba [as X] (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:320:460)
+    at fn (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:445:519)
+    at c (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:445:275)
+;
+                      Context: Error
+    at Object._.bn (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:442:30)
+    at Object._.pk (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:441:121)
+    at Object._.qk (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:320:297)
+    at cn.Mba [as X] (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:320:460)
+    at fn (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:445:519)
+    at c (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:445:275)
+[0.201s]8 realtime.media.capture.device.Collection: Choosing Microphone Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isSelected=false) for media request.
+[0.201s]8 realtime.media.capture.device.Collection: Updating Microphone collection from UserMedia
+[0.201s]8 realtime.media.capture.device.Collection: Microphone devices previously absent, switching to Device(id=default, displayName=, groupId=4aff96160d929612beb60897d7683d46b30b981de19d499057aa213274b32fbf, fullName=, isSelected=false)
+[0.201s]8 realtime.media.capture.device.Collection: Updating uninitialized persistent Microphone
+[0.201s]8 realtime.media.capture.device.Collection: Choosing Microphone Device(id=default, displayName=, groupId=4aff96160d929612beb60897d7683d46b30b981de19d499057aa213274b32fbf, fullName=, isSelected=false) for media request.
+[0.201s]8 realtime.media.capture.device.Collection: Updating Speaker collection from UserMedia
+[0.201s]8 realtime.media.capture.device.Collection: Speaker devices previously absent, switching to Device(id=default, displayName=, groupId=default, fullName=, isSelected=false)
+[0.201s]8 realtime.media.capture.device.Collection: Updating uninitialized persistent Speaker
+[0.201s]8 realtime.media.capture.device.Collection: Choosing Speaker Device(id=default, displayName=, groupId=default, fullName=, isSelected=false) for media request.
+[0.201s]8 realtime.media.api.webrtc.Delegate: Setting audio out to device with id=default
+[0.201s]8 realtime.media.audio.output.OutputManager: Audio output device ID (default) set.
+[0.201s]8 realtime.media.capture.device.Collection: Choosing Camera Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isSelected=false) for media request.
+[0.201s]8 realtime.media.capture.device.Collection: Updating Camera collection from UserMedia
+[0.201s]8 realtime.media.capture.device.Collection: Camera devices previously absent, switching to Device(id=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5, displayName=, groupId=24c653722e46dec640ab4594a3916430f94a646cf23518a81da57834ecc32e6e, fullName=, isSelected=false)
+[0.201s]8 realtime.media.capture.device.Collection: Updating uninitialized persistent Camera
+[0.201s]8 realtime.media.capture.device.Collection: Choosing Camera Device(id=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5, displayName=, groupId=24c653722e46dec640ab4594a3916430f94a646cf23518a81da57834ecc32e6e, fullName=, isSelected=false) for media request.
+[0.201s]8 realtime.media.api.webrtc.LoggingManager: Native WebRTC logging started
+[0.201s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [2] POST /hangouts/v1/media_sessions/add (deadline=3000ms, remainingRetries=8)
+[0.208s]8 realtime.media.audio.EchoDetector: Initialized - version 5
+[0.208s]8 realtime.media.audio.EchoDetector: Loaded and initialized in 179ms
+[0.217s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [1] 200
+[0.395s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [0] 200
+[0.401s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [3] POST /hangouts/v1/hangouts/query (deadline=3000ms, remainingRetries=8)
+[0.476s]8 realtime.media.logging.upload.LogUploadService: Log upload disallowed. Stopping upload.
+[0.541s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [3] 200
+[0.574s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [2] 200
+[0.584s]8 realtime.media.api.apiary.RemoteSession: Session id changing from {unset} to MAJKCiQxdGXesd2OK-U
+[0.585s]8 realtime.media.api.a.BulkJoinProcessor: Connecting Bulk Join Handler for MAJKCiQxdGXesd2OK-U
+[0.585s]8 realtime.media.api.a.BulkJoinProcessor: Set sessionId MAJKCiQxdGXesd2OK-U
+[0.585s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] starting session sync
+[0.585s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[0.587s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session IDs are now set: LocalSession ID: c20669092941054615034_NMS,
+       RemoteSession ID: MAJKCi{#12}U. Note: Session
+       is not yet active.
+[0.587s]8 realtime.media.session.SessionManager: Received remote description for session MAJKCi{#12}U with sufficient data to allow session preparation.
+[0.587s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Changed state from INITIAL to STARTING
+[0.588s]8 realtime.media.api.webrtc.LoggingManager: Starting logging for sessionId=c20669092941054615034_NMS
+[0.589s]8 ### Start [Sat Mar 28 2020 11:40:10 GMT+0100 (Central European Standard Time)] ### c20669092941054615034_NMS
+[0.589s]8 Current time is Sat, 28 Mar 2020 10:40:10 GMT
+[0.589s]8 Google Talk Plugin Version: 11.0.0.0
+[0.589s]8 User agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[0.590s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: recv local description.
+[0.591s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Calling initial setLocalDescription
+[0.591s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing setting of the initial local description.
+[0.592s]8 realtime.media.api.webrtc.PeerNegotiator: Generating initial local offer SDP.
+[0.599s]8 realtime.media.api.webrtc.PeerNegotiator: Setting initial local offer.
+[0.603s]8 realtime.media.api.webrtc.LocalSession: enableRtpHeaderDump called with enable=false for sessionId=c20669092941054615034_NMS
+[0.603s]8 realtime.media.api.webrtc.LoggingManager: enableRtpHeaderDump called with sessionId=c20669092941054615034_NMS and enable=false
+[0.603s]8 realtime.media.api.webrtc.LoggingManager: Ignoring enableRtpHeaderDump call for sessionId=c20669092941054615034_NMS as header dump already in state with enable=false
+[0.605s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCi{#12}U state changed from INITIAL to STARTING
+[0.605s]8 realtime.media.session.SessionManager: Received remote description for session MAJKCi{#12}U with sufficient data to allow starting the session.
+[0.607s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Starting with remote description: {"sessionId":"MAJKCiQxdGXesd2OK-U","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"nq":"a","Bg":111,"oq":"opus","Kn":0,"Nl":48000,"rk":2,"P":null,"F":{"minptime":"10","useinbandfec":"1"}},{"nq":"a","Bg":103,"oq":"ISAC","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":104,"oq":"ISAC","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":9,"oq":"G722","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":0,"oq":"PCMU","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":8,"oq":"PCMA","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":106,"oq":"CN","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":105,"oq":"CN","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":13,"oq":"CN","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":110,"oq":"telephone-event","Kn":0,"Nl":48000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":112,"oq":"telephone-event","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":113,"oq":"telephone-event","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":126,"oq":"telephone-event","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":1,"Bi":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","qq":"a"},{"id":2,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","qq":"a"},{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"nq":"v","Bg":96,"oq":"VP8","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"useadaptivelayering":"true"}},{"nq":"v","Bg":97,"oq":"rtx","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"apt":"96","useadaptivelayering":"true"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":2,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","qq":"v"},{"id":13,"Bi":"urn:3gpp:video-orientation","qq":"v"},{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"v"},{"id":6,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","qq":"v"},{"id":7,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","qq":"v"},{"id":8,"Bi":"http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07","qq":"v"},{"id":9,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/color-space","qq":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneF1983940, SSRC=1523770853, format=1)","transport":{"version":"ICE","ufrag":"wG9Ooo4diZ8CF3hC","pwd":"hkys0fK/LFSUOqIXV7VWLtVQ","fingerprint":"sha-256 25:C4:21:1E:9A:12:DA:1F:3E:94:5B:2C:A4:F5:96:59:28:D7:AA:51:73:14:CD:84:1E:1C:4F:7A:CE:D1:39:41","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.143.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.143.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.143.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[0.610s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCi{#12}U state changed from STARTING to STARTED
+[0.610s]8 realtime.media.api.webrtc.LocalSession: sendLogComment: RemoteSessionId=MAJKCiQxdGXesd2OK-U
+[0.611s]8 realtime.media.api.webrtc.LocalSession: Session c20669092941054615034_NMS setting remote descriptions: {"sessionId":"MAJKCiQxdGXesd2OK-U","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"nq":"a","Bg":111,"oq":"opus","Kn":0,"Nl":48000,"rk":2,"P":null,"F":{"minptime":"10","useinbandfec":"1"}},{"nq":"a","Bg":103,"oq":"ISAC","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":104,"oq":"ISAC","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":9,"oq":"G722","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":0,"oq":"PCMU","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":8,"oq":"PCMA","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":106,"oq":"CN","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":105,"oq":"CN","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":13,"oq":"CN","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":110,"oq":"telephone-event","Kn":0,"Nl":48000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":112,"oq":"telephone-event","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":113,"oq":"telephone-event","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":126,"oq":"telephone-event","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":1,"Bi":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","qq":"a"},{"id":2,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","qq":"a"},{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"nq":"v","Bg":96,"oq":"VP8","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"useadaptivelayering":"true"}},{"nq":"v","Bg":97,"oq":"rtx","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"apt":"96","useadaptivelayering":"true"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":2,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","qq":"v"},{"id":13,"Bi":"urn:3gpp:video-orientation","qq":"v"},{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"v"},{"id":6,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","qq":"v"},{"id":7,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","qq":"v"},{"id":8,"Bi":"http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07","qq":"v"},{"id":9,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/color-space","qq":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[{"aa":"d","ea":"call/elaneF1983940","ga":"collections","F":"1523770853","da":false,"$":false,"ka":false,"Z":true,"Kh":"collections","X":null,"ca":null,"ha":[1523770853],"P":null,"Y":[],"la":0}],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneF1983940, SSRC=1523770853, format=1)","transport":{"version":"ICE","ufrag":"wG9Ooo4diZ8CF3hC","pwd":"hkys0fK/LFSUOqIXV7VWLtVQ","fingerprint":"sha-256 25:C4:21:1E:9A:12:DA:1F:3E:94:5B:2C:A4:F5:96:59:28:D7:AA:51:73:14:CD:84:1E:1C:4F:7A:CE:D1:39:41","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.143.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.143.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.143.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[0.612s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: recv remote description.
+[0.613s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[0.613s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: recv view request.
+[0.614s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Changed state from STARTING to STARTED
+[0.614s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: recv candidate .
+[0.616s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [4] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[0.623s]8 talk.media.webrtc.Extension: Opening port named processCpu
+[0.625s]8 realtime.media.api.webrtc.PeerNegotiator: Initial local offer set successfully.
+[0.626s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=0): Starting.
+[0.627s]8 realtime.media.api.webrtc.PeerNegotiator: Altering remote description (answer).
+[0.633s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Initial setLocalDescription offer succeeded
+[0.646s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Remote stream added with id=6666 audioTracks=1 videoTracks=0
+[0.647s]8 realtime.media.audio.output.OutputManager: Creating audio output for stream (id=6666), ssrc (6666),
+     and output device (id=default)
+[0.647s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=0, elements.length=0)] Setting requested volume to 1.
+[0.648s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=1, elements.length=0)] Adding 1 elements.
+[0.650s]8 realtime.media.audio.EchoDetector: addRenderStream completed
+[0.650s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=1, elements.length=1)] Setting requested volume to 1.
+[0.651s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Remote stream added with id=6667 audioTracks=1 videoTracks=0
+[0.652s]8 realtime.media.audio.output.OutputManager: Creating audio output for stream (id=6667), ssrc (6667),
+     and output device (id=default)
+[0.652s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=0, elements.length=0)] Setting requested volume to 1.
+[0.652s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=1, elements.length=0)] Adding 1 elements.
+[0.653s]8 realtime.media.audio.EchoDetector: addRenderStream completed
+[0.653s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=1, elements.length=1)] Setting requested volume to 1.
+[0.654s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Remote stream added with id=6668 audioTracks=1 videoTracks=0
+[0.654s]8 realtime.media.audio.output.OutputManager: Creating audio output for stream (id=6668), ssrc (6668),
+     and output device (id=default)
+[0.654s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=0, elements.length=0)] Setting requested volume to 1.
+[0.655s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=1, elements.length=0)] Adding 1 elements.
+[0.656s]8 realtime.media.audio.EchoDetector: addRenderStream completed
+[0.656s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=1, elements.length=1)] Setting requested volume to 1.
+[0.657s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Got local ICE candidate: {"F":1,"ca":2113937151,"ga":"LOCAL","X":"UDP","P":"81b179bf-6b2e-40ed-815e-aff322a129d5.local","da":44384,"ea":"3322500590","$":0,"aa":"","Y":null,"Z":null}
+[0.657s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: send candidate LOCAL.
+[0.658s]8 realtime.media.api.webrtc.PeerNegotiator: Adding 3 pending ICE candidates after setRemoteDescription.
+[0.659s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=0): Successfully completed.
+[0.760s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] ICE connection state changed to: checking, signaling state: stable
+[0.764s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: play first audio.
+[0.765s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] ICE connection state changed to: connected, signaling state: stable
+[0.765s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: transport writable.
+[0.766s]9 Warning(realtime.media.session.ConnectionLostMonitor): [localSessionId=c20669092941054615034_NMS] Connection lost alarm tu = false.
+[0.766s]9 Warning(realtime.media.session.ConnectionLostMonitor): [localSessionId=c20669092941054615034_NMS] Connection lost alarm tu = false.
+[0.793s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [4] 200
+[0.796s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 1, have -1
+[0.798s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[1.158s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Sending local ICE candidates over to the other side:
+     [{"F":1,"ca":2113937151,"ga":"LOCAL","X":"UDP","P":"81b179bf-6b2e-40ed-815e-aff322a129d5.local","da":44384,"ea":"3322500590","$":0,"aa":"","Y":null,"Z":null}].
+[1.161s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [5] POST /hangouts/v1/media_sessions/modify (deadline=3000ms, remainingRetries=8)
+[1.393s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [5] 200
+[2.178s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Setting deviceId=null groupId=null.
+[2.179s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Updating device state to: nd
+[2.179s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=nd stream=null)] Update source state from li to mu
+[2.179s]8 realtime.media.api.webrtc.Capture: Changing media mute for Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=nd stream=null), setting track.enabled=false
+[2.179s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Skipping update usermedia while device in state=nd.
+[2.180s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Setting deviceId=default groupId=4aff96160d929612beb60897d7683d46b30b981de19d499057aa213274b32fbf.
+[2.180s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Updating device state to: re
+[2.180s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=re stream=null)] Update source state from mu to li
+[2.180s]8 realtime.media.api.webrtc.Capture: Changing media mute for Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null), setting track.enabled=true
+[2.180s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[2.180s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[2.180s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Attempting to update usermedia with id=0 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=,groupId=4aff96160d929612beb60897d7683d46b30b981de19d499057aa213274b32fbf), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false)) constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}.
+[2.181s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=<null>, groupId=4aff96160d929612beb60897d7683d46b30b981de19d499057aa213274b32fbf
+[2.181s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Starting media.
+[2.181s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Updating device state to: re
+[2.181s]8 realtime.media.api.webrtc.AudioMonitor: Registering audio capture=Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null).
+[2.182s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting mute state to mute=true.
+[2.182s]8 realtime.media.api.webrtc.Capture: Changing media mute for Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=true paused=false deviceState=re stream=null), setting track.enabled=false
+[2.182s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=true paused=false deviceState=re stream=null)] Update source state from li to mu
+[2.183s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Setting deviceId=null groupId=null.
+[2.183s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Updating device state to: nd
+[2.183s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=nd stream=null)] Update source state from li to mu
+[2.183s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Skipping update usermedia while device in state=nd.
+[2.183s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Setting deviceId=default groupId=4aff96160d929612beb60897d7683d46b30b981de19d499057aa213274b32fbf.
+[2.184s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=<null>, groupId=4aff96160d929612beb60897d7683d46b30b981de19d499057aa213274b32fbf
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Setting deviceId=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5 groupId=null.
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Updating device state to: re
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=re stream=null)] Update source state from mu to li
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Attempting to update usermedia with id=1 settings=VideoSettings(base=MediaSettings(deviceId=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5,deviceLabel=null,groupId=null), minVideoShape=VideoShape(width=1280, height=720, frameRate=24), maxVideoShape=VideoShape(width=1280, height=720, frameRate=24)) constraints={"audio":false,"video":{"deviceId":{"exact":"56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5"},"advanced":[{"frameRate":{"min":24}},{"height":{"min":720}},{"width":{"min":1280}},{"frameRate":{"max":24}},{"width":{"max":1280}},{"height":{"max":720}},{"aspectRatio":{"exact":1.7777777777777777}}]}}.
+[2.184s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Starting media.
+[2.184s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Updating device state to: re
+[2.186s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting mute state to mute=true.
+[2.186s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=true paused=false deviceState=re stream=null)] Update source state from li to mu
+[2.187s]8 realtime.media.session.SessionManager: Adding capture: {"config":null,"muted":true,"state":"Gerät bereit"}
+[2.187s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Registering sessionId=c20669092941054615034_NMS.
+[2.187s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Adding capture=Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=true paused=false deviceState=re stream=null)
+[2.187s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Successfully added capture: {"config":null,"muted":true,"state":"Gerät bereit"}
+[2.189s]8 realtime.media.api.a.BulkJoinProcessor: Adding session MAJKCiQxdGXesd2OK-U to bulk join for 4LJHnZ1ZHJSGKFk6a8CBAEEI
+[2.189s]8 realtime.media.api.a.BulkJoinProcessor: Appending 2 MediaStreamAdds to bulk join for 4LJHnZ1ZHJSGKFk6a8CBAEEI
+[2.190s]8 realtime.media.session.SessionManager: Adding capture: {"config":null,"muted":true,"state":"Gerät bereit"}
+[2.190s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Registering sessionId=c20669092941054615034_NMS.
+[2.190s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Adding capture=Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=true paused=false deviceState=re stream=null)
+[2.190s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Successfully added capture: {"config":null,"muted":true,"state":"Gerät bereit"}
+[2.191s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Registering sessionId=0-settings-session-id.
+[2.198s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=19] Local session 0-settings-session-id not found for participant 
+[2.199s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Stream Requests for UP streams received from remote
+     side: [{"aa":"","da":"2","ca":"v","P":{"width":1280,"height":720},"F":30,"X":true,"Z":"MAJKCiQxdGXesd2OK-U","$":0,"ea":[91396778,3131550503,846370076,956134753,2865017665,1604158876],"Y":"c20669092941054615034_NMS/2"}].
+[2.199s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Sending stream requests for UP streams to local session:
+     [{"aa":"","da":"2","ca":"v","P":{"width":640,"height":360},"F":30,"X":true,"Z":"MAJKCiQxdGXesd2OK-U","$":40,"ea":[91396778,3131550503,846370076,956134753,2865017665,1604158876],"Y":"c20669092941054615034_NMS/2"}].
+[2.200s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [6] POST /hangouts/v1/hangouts/bulk (deadline=60000ms, remainingRetries=0)
+[2.208s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=19] Cannot get the video stream during update.
+[2.208s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=19] Stopping all rendering.
+[2.220s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Registering sessionId=1-settings-session-id.
+[2.447s]8 realtime.media.capture.device.Collection: Updating Microphone collection from UserMedia
+[2.448s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Setting deviceId=default groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02.
+[2.448s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=Default, groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02
+[2.448s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Setting deviceId=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5 groupId=null.
+[2.448s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5
+[2.448s]8 realtime.media.capture.device.Collection: Updating Speaker collection from UserMedia
+[2.448s]8 realtime.media.api.webrtc.Delegate: Setting audio out to device with id=default
+[2.448s]8 realtime.media.audio.output.OutputManager: Audio output device ID (default) set.
+[2.448s]8 realtime.media.audio.output.OutputManager: Updating audio output device ID (default)
+       for stream (6666).
+[2.448s]8 realtime.media.audio.output.OutputManager: Updating audio output device ID (default)
+       for stream (6667).
+[2.448s]8 realtime.media.audio.output.OutputManager: Updating audio output device ID (default)
+       for stream (6668).
+[2.448s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Setting deviceId=default groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02.
+[2.448s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=Default, groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02
+[2.448s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Setting deviceId=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5 groupId=null.
+[2.448s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5
+[2.449s]8 realtime.media.capture.device.Collection: Updating Camera collection from UserMedia
+[2.449s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Setting deviceId=default groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02.
+[2.449s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=Default, groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02
+[2.449s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=true paused=false deviceState=re stream=null)] Setting deviceId=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5 groupId=null.
+[2.449s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=56fff29f248c3c1c11ae9e05deb8c362f5697954dc1815ab6889546bacc584a5
+[2.545s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [6] 200
+[2.548s]8 realtime.media.session.SessionManager: Connecting to hangoutId: 4LJHnZ1ZHJSGKFk6a8CBAEEI, with participantId: 750F9D928319284A and sessionLogData: { ParticipantLogId: elane_0farOiPGu4Z, MucJid: jid, SyntheticId: , MeetingCode: , MeetingSpaceId:  }
+[2.548s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Connecting session to hangoutId=4LJHnZ1ZHJSGKFk6a8CBAEEI.
+[2.548s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Latency event: call connect.
+[2.548s]8 realtime.media.stats.BandwidthLatencyReporter: Latency: call connect Id: 25 was marked at: 1585392012320ms
+[2.549s]8 realtime.media.api.apiary.RemoteSession: Attempting to connect session MAJKCi{#12}U to Hangout: 4LJHnZ1ZHJSGKFk6a8CBAEEI
+[2.549s]8 realtime.media.api.a.BulkJoinProcessor: Set hangout id: 4LJHnZ1ZHJSGKFk6a8CBAEEI
+[2.549s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Now has these 0 participant(s): []
+[2.555s]8 realtime.media.api.webrtc.LoggingManager: Starting WebRTC event logging for sessionId=c20669092941054615034_NMS, peerId=7583279809070981553
+[2.555s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCi{#12}U is started and connected to Hangout: 4LJHnZ1ZHJSGKFk6a8CBAEEI with participantId: 750F9D928319284A and participantLogId: elane_0farOiPGu4Z
+[2.557s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Now has these 1 participant(s): ["750F9D928319284A"]
+[2.564s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [7] POST /hangouts/v1/media_sessions/log (deadline=60000ms, remainingRetries=0)
+[2.568s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [8] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[2.575s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [9] POST /hangouts/v1/media_sources/add (deadline=3000ms, remainingRetries=8)
+[2.577s]8 realtime.media.api.a.BulkJoinProcessor: Bulk join complete. UpStreams: 2 items (405860348999169). DownStreams: 0 items (405860348999169).
+[2.577s]8 realtime.media.api.a.BulkJoinProcessor: Disconnecting Bulk Join Handler for MAJKCiQxdGXesd2OK-U
+[2.578s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCi{#12}U state changed from STARTED to INPROGRESS
+[2.579s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [10] POST /hangouts/v1/media_streams/add (deadline=3000ms, remainingRetries=8)
+[2.587s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Unregistering sessionId=1-settings-session-id.
+[2.590s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Registering sessionId=2-settings-session-id.
+[2.591s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Registering sessionId=3-settings-session-id.
+[2.592s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[2.592s]8 realtime.media.capture.device.Collection: Updating Microphone collection from UserMedia
+[2.592s]8 realtime.media.capture.device.Collection: Updating Speaker collection from UserMedia
+[2.593s]8 realtime.media.capture.device.Collection: Updating Camera collection from UserMedia
+[2.593s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=19] Cannot get the video stream during update.
+[2.593s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=19] Stopping all rendering.
+[2.593s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Unregistering sessionId=0-settings-session-id.
+[2.613s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [7] 200
+[2.615s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Cannot get the video stream during update.
+[2.615s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Stopping all rendering.
+[2.615s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] ICE connection state changed to: completed, signaling state: stable
+[2.615s]9 Warning(realtime.media.session.ConnectionLostMonitor): [localSessionId=c20669092941054615034_NMS] Connection lost alarm tu = false.
+[2.615s]9 Warning(realtime.media.session.ConnectionLostMonitor): [localSessionId=c20669092941054615034_NMS] Connection lost alarm tu = false.
+[2.616s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] send datachannel is open.
+[2.627s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Error during update usermedia call with id=0 constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}: NotReadableError: Could not start audio source.
+[2.627s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Delaying transitioning capture to failure after unexpected getUserMedia failure with id=0.
+[2.628s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Clearing pending getUserMedia request with id=0.
+[2.628s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Attempting to update usermedia with id=2 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=Default,groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false)) constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}.
+[2.638s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] During update usermedia with id=1 capture was muted.
+[2.638s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Stopping stream with id=biW4ZH4pSEfuzwcktu6pyYe1gCqNAIuEofBP
+[2.638s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Clearing pending getUserMedia request with id=1.
+[2.639s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Skipping update usermedia because capture is muted.
+[2.639s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Skipping update usermedia because capture is muted.
+[2.639s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Skipping update usermedia because capture is muted.
+[2.639s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Skipping update usermedia because capture is muted.
+[2.672s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] receive datachannel collections created.
+[2.672s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] dataReceived: participantId=call/elaneF1983940 label=collections data=["hcbu",[[[null,null,"460008386270654091"]
+,[null,[[3]
+,[]
+,[]
+,[]
+]
+]
+]
+]
+]
+
+[2.673s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session push provided version 3, have 1
+[2.674s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] receive datachannel collections is open.
+[2.676s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [8] 200
+[2.723s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] dataReceived: participantId=call/elaneF1983940 label=collections data=["hcbu",[[[null,null,"0"]
+,[null,null,[[405860348999171]
+,[[1,2,"MAJKCiQxdGXesd2OK-U","480345324","4LJHnZ1ZHJSGKFk6a8CBAEEI","750F9D928319284A","2",[[480345324,-1887747041]
+,[["FID",[480345324,-1887747041]
+]
+]
+,[]
+]
+,[null,0,null,null,[]
+]
+,[1]
+,1]
+]
+,[]
+]
+]
+]
+]
+]
+
+[2.757s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [10] 200
+[2.765s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Changed state from STARTED to INPROGRESS
+[2.766s]8 realtime.media.session.SessionManager: SessionManager changed state from STARTING to INPROGRESS
+[2.766s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Setting audio options to
+     {"autoGainControl":true,"echoCancellation":true,"highPassFilter":true,"inbandFec":true,"dtx":true,"noiseSuppression":true,"preferredSendCodec":null,"sendComfortNoise":true,"sendOpus":true,"sendStereo":false,"stereoSwapping":false,"transientSuppression":true}.
+[2.766s]8 realtime.media.api.webrtc.LocalSession: Session c20669092941054615034_NMS setting remote descriptions: {"sessionId":"MAJKCiQxdGXesd2OK-U","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"nq":"a","Bg":111,"oq":"opus","Kn":0,"Nl":48000,"rk":2,"P":null,"F":{"minptime":"10","useinbandfec":"1","stereo":"0","usedtx":"1"}},{"nq":"a","Bg":103,"oq":"ISAC","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":104,"oq":"ISAC","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":9,"oq":"G722","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":0,"oq":"PCMU","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":8,"oq":"PCMA","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":106,"oq":"CN","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":105,"oq":"CN","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":13,"oq":"CN","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":110,"oq":"telephone-event","Kn":0,"Nl":48000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":112,"oq":"telephone-event","Kn":0,"Nl":32000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":113,"oq":"telephone-event","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":126,"oq":"telephone-event","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":1,"Bi":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","qq":"a"},{"id":2,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","qq":"a"},{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"nq":"v","Bg":96,"oq":"VP8","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"useadaptivelayering":"true"}},{"nq":"v","Bg":97,"oq":"rtx","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"apt":"96","useadaptivelayering":"true"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":2,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","qq":"v"},{"id":13,"Bi":"urn:3gpp:video-orientation","qq":"v"},{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"v"},{"id":6,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","qq":"v"},{"id":7,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","qq":"v"},{"id":8,"Bi":"http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07","qq":"v"},{"id":9,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/color-space","qq":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[{"aa":"d","ea":"call/elaneF1983940","ga":"collections","F":"1523770853","da":false,"$":false,"ka":false,"Z":true,"Kh":"collections","X":null,"ca":null,"ha":[1523770853],"P":null,"Y":[],"la":0}],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneF1983940, SSRC=1523770853, format=1)","transport":{"version":"ICE","ufrag":"wG9Ooo4diZ8CF3hC","pwd":"hkys0fK/LFSUOqIXV7VWLtVQ","fingerprint":"sha-256 25:C4:21:1E:9A:12:DA:1F:3E:94:5B:2C:A4:F5:96:59:28:D7:AA:51:73:14:CD:84:1E:1C:4F:7A:CE:D1:39:41","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.143.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.143.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.143.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[2.767s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[2.767s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=1): Starting.
+[2.769s]8 realtime.media.api.webrtc.PeerNegotiator: Altering remote description (answer).
+[2.772s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=1): Successfully completed.
+[2.810s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Error during update usermedia call with id=2 constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}: NotReadableError: Could not start audio source.
+[2.811s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Ignore getUserMedia failure with id=2 as we are still in the failure delay period.
+[2.811s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Clearing pending getUserMedia request with id=2.
+[2.811s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Attempting to update usermedia with id=3 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=Default,groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false)) constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}.
+[2.827s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [9] 200
+[2.971s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Error during update usermedia call with id=3 constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}: NotReadableError: Could not start audio source.
+[2.972s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Ignore getUserMedia failure with id=3 as we are still in the failure delay period.
+[2.972s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Clearing pending getUserMedia request with id=3.
+[2.972s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Attempting to update usermedia with id=4 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=Default,groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false)) constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}.
+[3.124s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Error during update usermedia call with id=4 constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}: NotReadableError: Could not start audio source.
+[3.124s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Ignore getUserMedia failure with id=4 as we are still in the failure delay period.
+[3.125s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Clearing pending getUserMedia request with id=4.
+[3.125s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Attempting to update usermedia with id=5 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=Default,groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false)) constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}.
+[3.277s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Error during update usermedia call with id=5 constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}: NotReadableError: Could not start audio source.
+[3.277s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Ignore getUserMedia failure with id=5 as we are still in the failure delay period.
+[3.278s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Clearing pending getUserMedia request with id=5.
+[3.278s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Attempting to update usermedia with id=6 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=Default,groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false)) constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}.
+[3.422s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Error during update usermedia call with id=6 constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}: NotReadableError: Could not start audio source.
+[3.423s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Ignore getUserMedia failure with id=6 as we are still in the failure delay period.
+[3.423s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Clearing pending getUserMedia request with id=6.
+[3.729s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [11] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[3.831s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [12] POST /hangouts/v1/media_sources/search (deadline=3000ms, remainingRetries=8)
+[3.864s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [11] 200
+[3.912s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [12] 200
+[4.352s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [13] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[4.480s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [14] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[4.499s]8 realtime.media.audio.output.OutputManager: Rebuilding audio output (streamId=6666) to unblock playback.
+[4.500s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=1, elements.length=1)] Rebuilding.
+[4.500s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=1, elements.length=1)] Setting requested volume to 0.
+[4.500s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=0, elements.length=1)] Removing 1 elements.
+[4.500s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=0, elements.length=0)] Setting requested volume to 1.
+[4.500s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6666, volume=1, elements.length=0)] Adding 1 elements.
+[4.501s]8 realtime.media.audio.output.OutputManager: Rebuilding audio output (streamId=6667) to unblock playback.
+[4.501s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=1, elements.length=1)] Rebuilding.
+[4.501s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=1, elements.length=1)] Setting requested volume to 0.
+[4.501s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=0, elements.length=1)] Removing 1 elements.
+[4.501s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=0, elements.length=0)] Setting requested volume to 1.
+[4.501s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6667, volume=1, elements.length=0)] Adding 1 elements.
+[4.502s]8 realtime.media.audio.output.OutputManager: Rebuilding audio output (streamId=6668) to unblock playback.
+[4.502s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=1, elements.length=1)] Rebuilding.
+[4.502s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=1, elements.length=1)] Setting requested volume to 0.
+[4.502s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=0, elements.length=1)] Removing 1 elements.
+[4.503s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=0, elements.length=0)] Setting requested volume to 1.
+[4.503s]8 realtime.media.audio.AudioOutput: [HtmlAudioOutput(stream=6668, volume=1, elements.length=0)] Adding 1 elements.
+[4.564s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [13] 200
+[4.628s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] getUserMedia still has not succeeded after delay. About to make one final explicit attempt.
+[4.628s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Attempting to update usermedia with id=7 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=Default,groupId=64d9e06731f83450d1e1b3d725d6199f546c5ba9460d5c1eec127f97237a1b02), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false)) constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}.
+[4.706s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [14] 200
+[4.787s]9 Warning(realtime.media.api.webrtc.Capture): [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Error during update usermedia call with id=7 constraints={"audio":{"mandatory":{"sourceId":"default"},"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}]},"video":false}: NotReadableError: Could not start audio source.
+[4.788s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Updating device state to: fa
+[4.788s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=fa stream=null)] Clearing pending getUserMedia request with id=7.
+[4.984s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [15] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[5.066s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [16] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[5.211s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [15] 200
+[5.254s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [17] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[5.266s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [16] 200
+[5.374s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [18] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[5.444s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [17] 200
+[5.521s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [19] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[5.567s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [18] 200
+[5.615s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[5.616s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[5.709s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [19] 200
+[5.771s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [20] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[5.941s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [21] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[6.006s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [20] 200
+[6.036s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [22] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[6.139s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [21] 200
+[6.183s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [23] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[6.258s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [22] 200
+[6.367s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [23] 200
+[6.631s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [24] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[6.810s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [24] 200
+[7.042s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [25] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[7.148s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [26] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[7.263s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [25] 200
+[7.344s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [26] 200
+[7.450s]8 realtime.media.api.webrtc.AudioDeviceLogger: Audio devices are on different groupIds (mic: Default speaker: Default)
+[10.137s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[10.151s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [27] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[10.205s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [27] 200
+[10.616s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[10.617s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[10.798s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[10.799s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [28] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[10.913s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [28] 200
+[10.914s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 1
+[10.914s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Received modified remote description: {"sessionId":"MAJKCiQxdGXesd2OK-U","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"nq":"a","Bg":111,"oq":"opus","Kn":0,"Nl":48000,"rk":2,"P":null,"F":{"minptime":"10","useinbandfec":"1"}},{"nq":"a","Bg":103,"oq":"ISAC","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":0,"oq":"PCMU","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":105,"oq":"CN","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":13,"oq":"CN","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":1,"Bi":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","qq":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"nq":"v","Bg":96,"oq":"VP8","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"useadaptivelayering":"true"}},{"nq":"v","Bg":97,"oq":"rtx","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"apt":"96","useadaptivelayering":"true"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"v"},{"id":6,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","qq":"v"},{"id":7,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","qq":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneF1983940, SSRC=1523770853, format=1)","transport":{"version":"ICE","ufrag":"wG9Ooo4diZ8CF3hC","pwd":"hkys0fK/LFSUOqIXV7VWLtVQ","fingerprint":"sha-256 25:C4:21:1E:9A:12:DA:1F:3E:94:5B:2C:A4:F5:96:59:28:D7:AA:51:73:14:CD:84:1E:1C:4F:7A:CE:D1:39:41","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.143.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.143.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.143.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}.
+[10.917s]8 realtime.media.api.webrtc.LocalSession: Session c20669092941054615034_NMS setting remote descriptions: {"sessionId":"MAJKCiQxdGXesd2OK-U","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"nq":"a","Bg":111,"oq":"opus","Kn":0,"Nl":48000,"rk":2,"P":null,"F":{"minptime":"10","useinbandfec":"1","stereo":"0","usedtx":"1"}},{"nq":"a","Bg":103,"oq":"ISAC","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":0,"oq":"PCMU","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":105,"oq":"CN","Kn":0,"Nl":16000,"rk":1,"P":null,"F":{}},{"nq":"a","Bg":13,"oq":"CN","Kn":0,"Nl":8000,"rk":1,"P":null,"F":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":1,"Bi":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","qq":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"nq":"v","Bg":96,"oq":"VP8","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"useadaptivelayering":"true"}},{"nq":"v","Bg":97,"oq":"rtx","Kn":0,"Nl":90000,"rk":1,"P":null,"F":{"apt":"96","useadaptivelayering":"true"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"id":3,"Bi":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","qq":"v"},{"id":6,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","qq":"v"},{"id":7,"Bi":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","qq":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[{"aa":"d","ea":"call/elaneF1983940","ga":"collections","F":"1523770853","da":false,"$":false,"ka":false,"Z":true,"Kh":"collections","X":null,"ca":null,"ha":[1523770853],"P":null,"Y":[],"la":0}],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneF1983940, SSRC=1523770853, format=1)","transport":{"version":"ICE","ufrag":"wG9Ooo4diZ8CF3hC","pwd":"hkys0fK/LFSUOqIXV7VWLtVQ","fingerprint":"sha-256 25:C4:21:1E:9A:12:DA:1F:3E:94:5B:2C:A4:F5:96:59:28:D7:AA:51:73:14:CD:84:1E:1C:4F:7A:CE:D1:39:41","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.143.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.143.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.143.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[10.917s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[10.917s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=2): Starting.
+[10.918s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[10.919s]8 realtime.media.api.webrtc.PeerNegotiator: Altering remote description (answer).
+[10.921s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=2): Successfully completed.
+[12.039s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [29] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[12.265s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [29] 200
+[13.148s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [30] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[13.312s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [31] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[13.326s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [30] 200
+[13.395s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [32] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[13.502s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [31] 200
+[13.565s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [33] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[13.576s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [32] 200
+[13.743s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [33] 200
+[13.870s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [34] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[14.029s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [34] 200
+[14.639s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [35] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[14.860s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [35] 200
+[14.877s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [36] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[15.101s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [36] 200
+[15.617s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[15.618s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[16.530s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [37] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[16.698s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [37] 200
+[17.550s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [38] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[17.721s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [39] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[17.732s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [38] 200
+[17.904s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [39] 200
+[18.164s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [40] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[18.186s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [41] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[18.278s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [42] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[18.351s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [40] 200
+[18.364s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [41] 200
+[18.527s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [42] 200
+[18.553s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [43] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[18.695s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [44] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[18.736s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [43] 200
+[18.811s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [45] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[18.896s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [46] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[18.939s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [44] 200
+[19.043s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [45] 200
+[19.089s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [46] 200
+[20.035s]8 realtime.media.api.webrtc.JmiStatsParser: Ignore report with stale timestamp 1585392010374 from datachannel_-1 of datachannel
+[20.040s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[20.619s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[20.619s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[20.918s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[20.920s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [47] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[20.985s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [47] 200
+[20.986s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[20.986s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[24.034s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [48] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[24.113s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [48] 200
+[24.715s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [49] POST /hangouts/v1/hangout_invitations/add (deadline=60000ms, remainingRetries=0)
+[25.336s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [49] 200
+[25.619s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[25.620s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[29.971s]8 boq.hangoutsexpresslaneui.service.CallLatencyService: [[],[[1,1585392009437],[2,1585392009742],[13,1585392009769],[16,1585392009775],[3,1585392010172],[14,1585392011954],[4,1585392012322],[5,1585392012540]],[1,3]]
+[30.124s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[30.127s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [50] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[30.212s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [50] 200
+[30.621s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[30.621s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[30.987s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[30.987s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [51] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[31.099s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [51] 200
+[31.101s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[31.101s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[34.119s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [52] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[34.281s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [52] 200
+[35.622s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[35.623s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[40.115s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[40.623s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[40.624s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[41.101s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[41.102s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [53] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[41.167s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [53] 200
+[41.169s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[41.169s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[44.285s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [54] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[44.373s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [54] 200
+[45.624s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[45.625s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[50.067s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[50.075s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [55] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[50.148s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [55] 200
+[50.626s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[50.627s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[51.169s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[51.171s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [56] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[51.238s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [56] 200
+[51.242s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[51.242s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[54.380s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [57] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[54.568s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [57] 200
+[55.628s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[55.629s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[60.041s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[60.630s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[60.631s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[61.242s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[61.244s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [58] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[61.309s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [58] 200
+[61.313s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[61.313s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[64.574s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [59] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[64.646s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [59] 200
+[65.632s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[65.633s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[70.066s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[70.073s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [60] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[70.165s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [60] 200
+[70.634s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[70.635s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[71.313s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[71.315s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [61] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[71.394s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [61] 200
+[71.397s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[71.397s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[74.650s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [62] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[74.738s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [62] 200
+[75.636s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[75.637s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[80.128s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[80.134s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [63] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[80.197s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [63] 200
+[80.637s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[80.639s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[81.397s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[81.399s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [64] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[81.480s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [64] 200
+[81.483s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[81.483s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[84.745s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [65] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[84.834s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [65] 200
+[85.639s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[85.641s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[90.083s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[90.641s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[90.642s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[91.483s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[91.485s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [66] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[91.636s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [66] 200
+[91.639s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[91.640s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[94.839s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [67] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[94.926s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [67] 200
+[95.643s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[95.644s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[100.138s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[100.145s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [68] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[100.210s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [68] 200
+[100.645s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[100.646s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[101.640s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[101.642s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [69] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[101.716s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [69] 200
+[101.720s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[101.720s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[104.944s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [70] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[105.154s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [70] 200
+[105.646s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[105.648s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[110.102s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[110.648s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[110.650s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[111.721s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[111.722s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [71] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[111.800s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [71] 200
+[111.803s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[111.803s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[115.160s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [72] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[115.325s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [72] 200
+[115.650s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[115.652s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[120.067s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[120.074s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [73] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[120.174s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [73] 200
+[120.652s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[120.653s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[121.804s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[121.806s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [74] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[121.919s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [74] 200
+[121.923s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[121.923s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[125.332s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [75] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[125.414s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [75] 200
+[125.654s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[125.656s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[130.140s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[130.150s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [76] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[130.241s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [76] 200
+[130.656s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[130.658s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[131.924s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[131.925s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [77] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[132.002s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [77] 200
+[132.005s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[132.005s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[135.421s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [78] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[135.658s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[135.659s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[135.669s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [78] 200
+[140.096s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[140.660s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[140.661s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[142.006s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[142.008s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [79] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[142.074s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [79] 200
+[142.077s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[142.077s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[145.662s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[145.663s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[145.675s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [80] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[145.909s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [80] 200
+[150.054s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[150.061s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [81] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[150.128s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [81] 200
+[150.663s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[150.665s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[152.078s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[152.079s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [82] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[152.150s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [82] 200
+[152.153s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[152.153s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[155.665s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[155.666s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[155.916s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [83] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[155.999s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [83] 200
+[160.087s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[160.094s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [84] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[160.161s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [84] 200
+[160.666s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[160.668s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[162.153s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[162.154s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [85] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[162.267s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [85] 200
+[162.269s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[162.269s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[165.668s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[165.670s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[166.006s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [86] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[166.181s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [86] 200
+[170.123s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[170.129s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [87] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[170.190s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [87] 200
+[170.670s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[170.671s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[172.269s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[172.270s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [88] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[172.382s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [88] 200
+[172.388s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[172.388s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[175.672s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[175.672s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[176.187s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [89] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[176.425s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [89] 200
+[180.067s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[180.672s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[180.673s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[182.388s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[182.389s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [90] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[182.494s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [90] 200
+[182.495s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[182.495s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[185.673s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[185.674s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[186.431s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [91] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[186.519s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [91] 200
+[190.050s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[190.057s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [92] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[190.154s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [92] 200
+[190.674s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[190.675s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[192.495s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[192.497s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [93] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[192.571s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [93] 200
+[192.573s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[192.573s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[195.676s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[195.677s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[196.526s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [94] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[196.804s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [94] 200
+[200.098s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[200.100s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [95] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[200.181s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [95] 200
+[200.677s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[200.678s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[202.573s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[202.575s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [96] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[202.652s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [96] 200
+[202.655s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[202.655s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[205.678s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[205.679s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[206.810s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [97] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[206.898s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [97] 200
+[210.085s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[210.680s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[210.681s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[212.655s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[212.657s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [98] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[212.771s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [98] 200
+[212.772s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[212.772s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[215.681s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[215.682s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[216.903s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [99] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[217.070s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [99] 200
+[220.116s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[220.117s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [100] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[220.201s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [100] 200
+[220.682s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[220.684s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[222.772s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[222.774s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [101] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[222.894s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [101] 200
+[222.897s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[222.897s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[225.684s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[225.685s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[227.074s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [102] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[227.319s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [102] 200
+[230.051s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[230.686s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[230.686s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[232.898s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[232.900s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [103] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[232.974s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [103] 200
+[232.976s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[232.977s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[235.687s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[235.688s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[237.325s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [104] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[237.417s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [104] 200
+[240.088s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[240.091s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [105] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[240.151s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [105] 200
+[240.688s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[240.690s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[242.977s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[242.979s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [106] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[243.100s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [106] 200
+[243.103s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[243.103s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[245.691s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[245.692s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[247.423s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [107] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[247.643s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [107] 200
+[250.039s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[250.692s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[250.693s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[253.104s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[253.105s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [108] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[253.177s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [108] 200
+[253.180s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[253.181s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[255.694s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[255.695s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[257.650s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [109] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[257.836s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [109] 200
+[260.091s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[260.098s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [110] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[260.166s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [110] 200
+[260.696s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[260.696s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[263.181s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[263.183s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [111] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[263.298s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [111] 200
+[263.301s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[263.301s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[265.697s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[265.698s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[267.841s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [112] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[267.915s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [112] 200
+[270.122s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[270.128s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [113] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[270.192s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [113] 200
+[270.698s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[270.699s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[273.301s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[273.302s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [114] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[273.412s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [114] 200
+[273.413s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[273.413s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[275.699s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[275.701s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[277.918s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [115] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[278.089s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [115] 200
+[280.047s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[280.701s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[280.702s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[283.413s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[283.415s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [116] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[283.551s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [116] 200
+[283.553s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[283.554s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[285.702s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[285.703s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[288.091s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [117] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[288.457s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [117] 200
+[290.080s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[290.087s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [118] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[290.149s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [118] 200
+[290.704s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[290.704s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[293.554s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[293.556s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [119] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[293.628s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [119] 200
+[293.630s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[293.631s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[295.705s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[295.706s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[298.463s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [120] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[298.544s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [120] 200
+[300.113s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[300.119s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [121] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[300.212s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [121] 200
+[300.706s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[300.708s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[302.556s]8 realtime.media.stats.BandwidthLatencyReporter: [[],[[25,1585392012320]],[]]
+[303.631s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[303.633s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [122] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[303.702s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [122] 200
+[303.703s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[303.703s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[305.708s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[305.710s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[308.548s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [123] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[308.730s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [123] 200
+[310.059s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[310.710s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[310.710s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[313.703s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[313.705s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [124] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[313.826s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [124] 200
+[313.829s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[313.829s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[315.711s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[315.712s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[318.735s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [125] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[318.970s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [125] 200
+[320.106s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[320.112s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [126] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[320.173s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [126] 200
+[320.713s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[320.714s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[323.830s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[323.832s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [127] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[323.953s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [127] 200
+[323.954s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[323.954s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[325.714s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[325.716s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[328.974s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [128] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[329.183s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [128] 200
+[330.056s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[330.716s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[330.717s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[333.954s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[333.956s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [129] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[334.026s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [129] 200
+[334.029s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[334.030s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[335.719s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[335.720s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[339.186s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [130] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[339.447s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [130] 200
+[340.067s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[340.069s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [131] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[340.146s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [131] 200
+[340.720s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[340.721s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[344.030s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[344.030s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [132] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[344.142s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [132] 200
+[344.144s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[344.144s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[345.721s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[345.722s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[349.449s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [133] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[349.530s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [133] 200
+[350.050s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[350.722s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[350.722s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[354.144s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[354.145s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [134] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[354.212s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [134] 200
+[354.213s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[354.213s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[355.723s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[355.723s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[359.533s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [135] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[359.607s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [135] 200
+[360.112s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[360.116s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [136] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[360.178s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [136] 200
+[360.724s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[360.725s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[364.213s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[364.214s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [137] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[364.284s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [137] 200
+[364.285s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[364.285s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[365.725s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[365.725s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[369.610s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [138] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[369.862s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [138] 200
+[370.090s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[370.726s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[370.726s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[374.286s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[374.287s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [139] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[374.358s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [139] 200
+[374.359s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[374.359s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[375.727s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[375.727s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[379.867s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [140] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[380.071s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[380.075s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [141] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[380.087s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [140] 200
+[380.163s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [141] 200
+[380.728s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[380.728s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[384.359s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[384.361s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [142] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[384.432s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [142] 200
+[384.433s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[384.433s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[384.645s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [143] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[384.849s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [144] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[384.881s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [143] 200
+[384.943s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [145] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[385.114s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [146] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[385.122s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [144] 200
+[385.149s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [145] 200
+[385.324s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [146] 200
+[385.469s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [147] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[385.644s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [147] 200
+[385.729s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[385.729s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[385.795s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [148] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[386.042s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [148] 200
+[386.285s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [149] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[386.554s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [149] 200
+[386.961s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [150] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[387.101s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [151] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[387.119s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [152] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[387.178s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [150] 200
+[387.275s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [151] 200
+[387.306s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [153] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[387.362s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [152] 200
+[387.394s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [154] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[387.577s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [153] 200
+[387.582s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [155] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[387.590s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [154] 200
+[387.718s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [156] POST /chat/v1/contacts/searchentities (deadline=60000ms, remainingRetries=0)
+[387.773s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [155] 200
+[387.904s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [156] 200
+[390.052s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[390.090s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [157] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[390.258s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [157] 200
+[390.730s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[390.730s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[394.433s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[394.434s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [158] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[394.561s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [158] 200
+[394.562s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[394.562s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[394.798s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [159] POST /hangouts/v1/hangout_invitations/add (deadline=60000ms, remainingRetries=0)
+[395.258s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [159] 200
+[395.731s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[395.731s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[400.131s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[400.133s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [160] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[400.215s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [160] 200
+[400.260s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [161] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[400.336s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [161] 200
+[400.732s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[400.732s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[404.562s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[404.563s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [162] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[404.677s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [162] 200
+[404.678s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[404.679s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[405.733s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[405.733s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[410.118s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[410.340s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [163] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[410.590s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [163] 200
+[410.734s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[410.734s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[414.679s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[414.680s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [164] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[414.808s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [164] 200
+[414.809s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[414.809s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[415.735s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[415.735s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[420.087s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[420.089s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [165] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[420.145s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [165] 200
+[420.593s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [166] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[420.736s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[420.736s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[420.746s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [166] 200
+[424.810s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[424.811s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [167] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[424.928s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [167] 200
+[424.929s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[424.929s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[425.736s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[425.737s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[430.067s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[430.737s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[430.738s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[430.748s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [168] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[430.912s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [168] 200
+[434.929s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[434.930s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [169] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[435.040s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [169] 200
+[435.041s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[435.041s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[435.738s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[435.738s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[440.130s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[440.132s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [170] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[440.214s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [170] 200
+[440.739s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[440.739s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[440.915s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [171] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[441.070s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [171] 200
+[445.041s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[445.042s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [172] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[445.106s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [172] 200
+[445.107s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[445.107s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[445.739s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[445.740s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[450.090s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[450.740s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[450.740s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[451.072s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [173] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[451.181s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [173] 200
+[455.107s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[455.108s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [174] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[455.222s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [174] 200
+[455.223s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[455.223s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[455.741s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[455.741s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[460.051s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[460.052s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [175] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[460.136s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [175] 200
+[460.741s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[460.742s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[461.184s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [176] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[461.354s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [176] 200
+[465.223s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[465.224s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [177] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[465.333s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [177] 200
+[465.334s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[465.334s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[465.742s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[465.743s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[470.124s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[470.127s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [178] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[470.205s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [178] 200
+[470.743s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[470.743s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[471.360s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [179] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[471.441s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [179] 200
+[475.334s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[475.335s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [180] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[475.403s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [180] 200
+[475.404s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[475.404s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[475.744s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[475.744s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[480.098s]10 talk.media.webrtc.Extension: Method: cpu.getInfo; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[480.744s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[480.745s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[481.445s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [181] POST /hangouts/v1/hangouts/bulk (deadline=3000ms, remainingRetries=8)
+[481.516s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [181] 200
+[485.404s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] sending session query
+[485.405s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [182] POST /hangouts/v1/media_sessions/query (deadline=3000ms, remainingRetries=8)
+[485.523s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Response [182] 200
+[485.527s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] session query returned version 3, have 3
+[485.527s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] scheduling session query
+[485.745s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received audio.
+[485.747s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Session has never received video.
+[488.710s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Setting mute state to mute=true.
+[488.711s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Stopping.
+[488.711s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Updating device state to: st
+[488.712s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Removing capture=Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=st stream=null)
+[488.713s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] StreamInfo=Stream(participantId=, mediaType=v, sourceId=2, streamId=c20669092941054615034_NMS/2, muted=true, downlinkPaused=false, uplinkPaused=false, croppable=true, mediaStreamId=null, mediaStreamTrackId=null, ssrcs=91396778,3131550503,846370076,956134753,2865017665,1604158876, rids=null, ssrcGroups=SsrcGroup(semantics=SIM, ssrcs=91396778,3131550503,846370076),SsrcGroup(semantics=FID, ssrcs=91396778,956134753),SsrcGroup(semantics=FID, ssrcs=3131550503,2865017665),SsrcGroup(semantics=FID, ssrcs=846370076,1604158876), adaptationFlags=0) updated.
+[488.713s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[488.713s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=3): Starting.
+[488.717s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c20669092941054615034_NMS.
+[488.718s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A)
+[488.719s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A)
+[488.720s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=fa stream=null)] Setting mute state to mute=true.
+[488.720s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=fa stream=null)] Stopping.
+[488.720s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=fa stream=null)] Updating device state to: st
+[488.720s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Removing capture=Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=st stream=null)
+[488.720s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] StreamInfo=Stream(participantId=, mediaType=a, sourceId=1, streamId=c20669092941054615034_NMS/1, muted=true, downlinkPaused=false, uplinkPaused=false, croppable=true, mediaStreamId=null, mediaStreamTrackId=null, ssrcs=748655952, rids=null, ssrcGroups=, adaptationFlags=0) updated.
+[488.720s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[488.720s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c20669092941054615034_NMS.
+[488.720s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=1 type=a content=un state=mu participantId=750F9D928319284A)
+[488.720s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=1 type=a content=un state=mu participantId=750F9D928319284A)
+[488.720s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A)
+[488.720s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A)
+[488.721s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=750F9D928319284A) muted=false paused=false deviceState=re stream=null)] Setting mute state to mute=true.
+[488.721s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Update source state from li to mu
+[488.721s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Stopping.
+[488.721s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=re stream=null)] Updating device state to: st
+[488.721s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c20669092941054615034_NMS)] Removing capture=Capture(source=Source(id=3 type=d content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=st stream=null)
+[488.721s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=mu participantId=750F9D928319284A) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c20669092941054615034_NMS.
+[488.721s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=1 type=a content=un state=mu participantId=750F9D928319284A)
+[488.721s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=1 type=a content=un state=mu participantId=750F9D928319284A)
+[488.722s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A)
+[488.722s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=2 type=v content=ca state=mu participantId=750F9D928319284A)
+[488.722s]8 realtime.media.session.SessionManager: Stopping video call because stop called with endCause: 0
+[488.722s]8 realtime.media.session.SessionManager: SessionManager changed state from INPROGRESS to STOPPED
+[488.723s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Stopping because stop called with endCause: 0 and debug information: Error
+    at _.AU._.h.stop (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/ck=boq-rtc.elUi.SSy6DnoEZDU.L.B1.O/am=hwgj3v8vjhsTEAI/d=1/exm=DCwKHe,Gvzp9c,HNb6ld,IZT63,L1AAkb,NpD4ec,O4tzsb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,_b,_tp,aW3pY,azqyEc,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,rrm,u6ds5,us99re,wmwg8b,ws9Tlc/excm=_b,_tp,callview/ed=1/wt=2/ct=zgms/rs=AL5CKSEvk2U-semm2EXeohZpjjk15OrFOw/m=A4UTCb,EGNJFf,EJCLIf,GKkER,HhtPge,I6YDgd,NA1Oyb,O6y8ed,PrPYRd,RZabBc,Rtu0he,SF3gsd,V3dDOb,VXdfxd,X83P5c,ZqQ43,drfdGd,gzsdAb,hc6Ubd,hw217b,iSvg6e,n7usAe,qgJfE,utYD0c,vfuNJf:438:121)
+    at https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/ck=boq-rtc.elUi.SSy6DnoEZDU.L.B1.O/am=hwgj3v8vjhsTEAI/d=1/exm=DCwKHe,Gvzp9c,HNb6ld,IZT63,L1AAkb,NpD4ec,O4tzsb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,_b,_tp,aW3pY,azqyEc,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,rrm,u6ds5,us99re,wmwg8b,ws9Tlc/excm=_b,_tp,callview/ed=1/wt=2/ct=zgms/rs=AL5CKSEvk2U-semm2EXeohZpjjk15OrFOw/m=A4UTCb,EGNJFf,EJCLIf,GKkER,HhtPge,I6YDgd,NA1Oyb,O6y8ed,PrPYRd,RZabBc,Rtu0he,SF3gsd,V3dDOb,VXdfxd,X83P5c,ZqQ43,drfdGd,gzsdAb,hc6Ubd,hw217b,iSvg6e,n7usAe,qgJfE,utYD0c,vfuNJf:486:365
+    at Set.forEach (<anonymous>)
+    at _.LU.stop (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/ck=boq-rtc.elUi.SSy6DnoEZDU.L.B1.O/am=hwgj3v8vjhsTEAI/d=1/exm=DCwKHe,Gvzp9c,HNb6ld,IZT63,L1AAkb,NpD4ec,O4tzsb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,_b,_tp,aW3pY,azqyEc,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,rrm,u6ds5,us99re,wmwg8b,ws9Tlc/excm=_b,_tp,callview/ed=1/wt=2/ct=zgms/rs=AL5CKSEvk2U-semm2EXeohZpjjk15OrFOw/m=A4UTCb,EGNJFf,EJCLIf,GKkER,HhtPge,I6YDgd,NA1Oyb,O6y8ed,PrPYRd,RZabBc,Rtu0he,SF3gsd,V3dDOb,VXdfxd,X83P5c,ZqQ43,drfdGd,gzsdAb,hc6Ubd,hw217b,iSvg6e,n7usAe,qgJfE,utYD0c,vfuNJf:486:343)
+    at _.mZ._.h.disconnect (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/ck=boq-rtc.elUi.SSy6DnoEZDU.L.B1.O/am=hwgj3v8vjhsTEAI/d=1/exm=DCwKHe,Gvzp9c,HNb6ld,IZT63,L1AAkb,NpD4ec,O4tzsb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,_b,_tp,aW3pY,azqyEc,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,rrm,u6ds5,us99re,wmwg8b,ws9Tlc/excm=_b,_tp,callview/ed=1/wt=2/ct=zgms/rs=AL5CKSEvk2U-semm2EXeohZpjjk15OrFOw/m=A4UTCb,EGNJFf,EJCLIf,GKkER,HhtPge,I6YDgd,NA1Oyb,O6y8ed,PrPYRd,RZabBc,Rtu0he,SF3gsd,V3dDOb,VXdfxd,X83P5c,ZqQ43,drfdGd,gzsdAb,hc6Ubd,hw217b,iSvg6e,n7usAe,qgJfE,utYD0c,vfuNJf:613:455)
+    at _.LZ.Ma (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/ck=boq-rtc.elUi.SSy6DnoEZDU.L.B1.O/am=hwgj3v8vjhsTEAI/d=1/exm=DCwKHe,Gvzp9c,HNb6ld,IZT63,L1AAkb,NpD4ec,O4tzsb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,_b,_tp,aW3pY,azqyEc,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,rrm,u6ds5,us99re,wmwg8b,ws9Tlc/excm=_b,_tp,callview/ed=1/wt=2/ct=zgms/rs=AL5CKSEvk2U-semm2EXeohZpjjk15OrFOw/m=A4UTCb,EGNJFf,EJCLIf,GKkER,HhtPge,I6YDgd,NA1Oyb,O6y8ed,PrPYRd,RZabBc,Rtu0he,SF3gsd,V3dDOb,VXdfxd,X83P5c,ZqQ43,drfdGd,gzsdAb,hc6Ubd,hw217b,iSvg6e,n7usAe,qgJfE,utYD0c,vfuNJf:1046:259)
+    at hW.Fj (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/ck=boq-rtc.elUi.SSy6DnoEZDU.L.B1.O/am=hwgj3v8vjhsTEAI/d=1/exm=DCwKHe,Gvzp9c,HNb6ld,IZT63,L1AAkb,NpD4ec,O4tzsb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,_b,_tp,aW3pY,azqyEc,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,rrm,u6ds5,us99re,wmwg8b,ws9Tlc/excm=_b,_tp,callview/ed=1/wt=2/ct=zgms/rs=AL5CKSEvk2U-semm2EXeohZpjjk15OrFOw/m=A4UTCb,EGNJFf,EJCLIf,GKkER,HhtPge,I6YDgd,NA1Oyb,O6y8ed,PrPYRd,RZabBc,Rtu0he,SF3gsd,V3dDOb,VXdfxd,X83P5c,ZqQ43,drfdGd,gzsdAb,hc6Ubd,hw217b,iSvg6e,n7usAe,qgJfE,utYD0c,vfuNJf:792:345)
+    at https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:414:152
+    at fg (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:164:238)
+    at Object._.ig (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.de.nP5IrE-gqy4.es5.O/am=hwgj3v8vjhsTEAI/d=1/excm=_b,_tp,callview/ed=1/dg=0/wt=2/ct=zgms/rs=AL5CKSEu32N99-Nk9ejkrtFCL-Nwy6kb7g/m=_b,_tp:161:481)
+[488.723s]8 realtime.media.api.webrtc.PeerNegotiator: Cancelling 1 pending negotiation(s).
+[488.727s]8 realtime.media.api.webrtc.LoggingManager: Stopping logging for sessionId=c20669092941054615034_NMS
+[488.727s]8 realtime.media.api.webrtc.LoggingManager: Stopping native WebRTC logging.
+[488.727s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCi{#12}U stopping because stop was called with endCause: 0
+[488.727s]8 realtime.media.session.MediaSessionSyncer: [MAJKCi{#12}U] stopping session sync
+[488.728s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCi{#12}U state changed from INPROGRESS to STOPPED
+[488.728s]8 realtime.media.session.SessionImpl: [localSessionId=c20669092941054615034_NMS] Changed state from INPROGRESS to STOPPED
+[488.730s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [183] POST /hangouts/v1/media_sessions/callperf (deadline=60000ms, remainingRetries=0)
+[488.732s]8 talk.media.webrtc.Extension: Sending message {"method":"logging.stop"}
+[488.733s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [184] POST /hangouts/v1/hangout_participants/remove (deadline=3000ms, remainingRetries=2)
+[488.734s]8 realtime.analytics.networkmonitoring.RequestResponseMonitor: HTTP Request [185] POST /hangouts/v1/media_sources/add (deadline=3000ms, remainingRetries=8)
+[488.735s]9 Warning(realtime.media.api.webrtc.PeerController): [PeerController(sessionId=c20669092941054615034_NMS)] Negotiating with updated local streams failed with error=cancel: Negotiations cancelled due to cancel() call.
+[488.737s]10 talk.media.webrtc.Extension: Method: logging.stop; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.
+[488.737s]9 Warning(realtime.media.api.webrtc.HangoutExtensionServiceImpl): logging.stop failed with error=ExtensionResult(status=2, value=talk.media.webrtc.Extension: Method: logging.stop; Type: Hangout Component Extension Error; Explanation: No response from extension. chrome.runtime.lastError.message: Could not establish connection. Receiving end does not exist.)
+[488.737s]8 realtime.media.api.webrtc.LoggingManager: Request to stop native WebRTC logging succeeded
+[488.737s]8 ### Stop [Sat Mar 28 2020 11:48:18 GMT+0100 (Central European Standard Time)] ### c20669092941054615034_NMS
+[488.738s]8 Current time is Sat, 28 Mar 2020 10:48:18 GMT

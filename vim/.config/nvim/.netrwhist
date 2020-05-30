@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/dmaendlen/projects/charity/diecutfacemasks.github.io/_vendor'
+let g:netrw_dirhist_2='/home/dmaendlen/projects/charity/diecutfacemasks.github.io/_vendor/bundle'
