@@ -8,14 +8,15 @@ fi
 # disable touchpad
 #xinput --float "SynPS/2 Synaptics TouchPad"
 ### emulate wheel = true
-#xinput --set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" "true"
+#xinput --set-prop "DELL081C:00 044E:121F Mouse" "Evdev Wheel Emulation" "true"
 ## emulate wheel by clicking on middle button
-#xinput --set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
-#xinput --set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Timeout" 200
+#xinput --set-prop "DELL081C:00 044E:121F Mouse" "Evdev Wheel Emulation Button" 2
+#xinput --set-prop "DELL081C:00 044E:121F Mouse" "Evdev Wheel Emulation Timeout" 200
 ## horizontal and vertical scrolling
-#xinput --set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Axes" 6 7 4 5
-xinput --disable 11
-xinput --enable 12
+#xinput --set-prop "DELL081C:00 044E:121F Mouse" "Evdev Wheel Emulation Axes" 6 7 4 5
+xinput --disable 12
+xinput --enable 11
+xinput --set-prop 11 294 0 0 1
 
 #kill bell
 xset -b
