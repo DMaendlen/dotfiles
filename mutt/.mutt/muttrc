@@ -139,6 +139,7 @@ macro index,pager n '?'\                "Switch to next mailbox
 macro index,pager ,a	'<sync-mailbox><enter-command>source ~/.mutt/archivesettings<enter><change-folder>!<enter>'
 macro index,pager ,b	'<sync-mailbox><enter-command>source ~/.mutt/bifroestsettings<enter><change-folder>!<enter>'
 macro index,pager ,t	'<sync-mailbox><enter-command>source ~/.mutt/thwstuttgartsettings<enter><change-folder>!<enter>'
+macro index,pager ,f	'<sync-mailbox><enter-command>source ~/.mutt/thwfksettings<enter><change-folder>!<enter>'
 
 # open urls with urlscan
 macro index,pager \cb |urlscan\n
