@@ -62,8 +62,8 @@ export PATH="${PATH}:~/.local/bin"
 export EDITOR='vim'
 
 # Preferred pager
-#export PAGER='/usr/bin/vimpager'
-#export MANPAGER='/usr/bin/vimmanpager'
+export PAGER='/usr/local/bin/vimpager'
+export MANPAGER='/usr/local/bin/vimpager'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
