@@ -88,7 +88,7 @@ source ~/.mutt/smime.rc
 source ~/.mutt/colors
 
 # override with account specific folder-hooks
-folder-hook INBOX				source ~/.mutt/bifroest
+#folder-hook INBOX				source ~/.mutt/bifroest
 folder-hook INBOX.abuse				source ~/.mutt/abuse
 folder-hook INBOX.freifunk.stuttgart		source ~/.mutt/ffs
 folder-hook INBOX.seclists.fulldisclosure	source ~/.mutt/fulldisclosure
@@ -138,6 +138,7 @@ macro index ,V "<collapse-all>"    "collapse/uncollapse all threads"
 macro index,pager n '?'\                "Switch to next mailbox
 macro index,pager ,a	'<sync-mailbox><enter-command>source ~/.mutt/archivesettings<enter><change-folder>!<enter>'
 macro index,pager ,b	'<sync-mailbox><enter-command>source ~/.mutt/bifroestsettings<enter><change-folder>!<enter>'
+macro index,pager ,t	'<sync-mailbox><enter-command>source ~/.mutt/thwstuttgartsettings<enter><change-folder>!<enter>'
 
 # open urls with urlscan
 macro index,pager \cb |urlscan\n
